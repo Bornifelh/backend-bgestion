@@ -1,0 +1,360 @@
+2026-01-12 14:12:36 [ERROR]: error: relation "workspace_invitations" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/member.routes.js:65:20
+2026-01-12 14:12:37 [ERROR]: error: relation "workspace_invitations" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/member.routes.js:65:20
+2026-01-12 14:12:38 [ERROR]: error: relation "budgets" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/budget.routes.js:13:20
+2026-01-12 14:12:39 [ERROR]: error: relation "budgets" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/budget.routes.js:13:20
+2026-01-12 14:12:39 [ERROR]: error: relation "workspace_invitations" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/member.routes.js:65:20
+2026-01-12 14:12:40 [ERROR]: error: relation "workspace_invitations" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/member.routes.js:65:20
+2026-01-12 14:12:42 [ERROR]: error: relation "workspace_invitations" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/member.routes.js:65:20
+2026-01-12 14:12:43 [ERROR]: error: relation "workspace_invitations" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/member.routes.js:65:20
+2026-01-12 14:12:55 [ERROR]: error: relation "workspace_invitations" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/member.routes.js:65:20
+2026-01-12 14:12:56 [ERROR]: error: relation "workspace_invitations" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/member.routes.js:65:20
+2026-01-12 16:02:01 [ERROR]: error: relation "sdsi_strategic_axes" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:824:19
+2026-01-12 16:02:01 [ERROR]: error: relation "sdsi_strategic_axes" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:824:19
+2026-01-12 16:02:09 [ERROR]: error: relation "sdsi_projects" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:763:28
+2026-01-12 16:02:09 [ERROR]: error: relation "sdsi_projects" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:763:28
+2026-01-12 16:02:15 [ERROR]: error: relation "sdsi_strategic_axes" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:17:20
+2026-01-12 16:02:15 [ERROR]: error: relation "sdsi_projects" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:160:20
+2026-01-12 16:02:15 [ERROR]: error: relation "sdsi_projects" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:160:20
+2026-01-12 16:02:15 [ERROR]: error: relation "sdsi_strategic_axes" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:17:20
+2026-01-12 16:02:33 [ERROR]: error: relation "sdsi_projects" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:763:28
+2026-01-12 16:02:33 [ERROR]: error: relation "sdsi_projects" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:763:28
+2026-01-12 16:02:34 [ERROR]: error: relation "sdsi_applications" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:508:20
+2026-01-12 16:02:34 [ERROR]: error: relation "sdsi_applications" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:508:20
+2026-01-12 16:05:24 [ERROR]: error: relation "sdsi_strategic_axes" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:824:19
+2026-01-12 16:05:24 [ERROR]: error: relation "sdsi_strategic_axes" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:824:19
+2026-01-12 16:07:43 [ERROR]: error: relation "sdsi_projects" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:160:20
+2026-01-12 16:07:43 [ERROR]: error: relation "sdsi_strategic_axes" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:17:20
+2026-01-12 16:07:43 [ERROR]: error: relation "sdsi_strategic_axes" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:17:20
+2026-01-12 16:07:43 [ERROR]: error: relation "sdsi_projects" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:160:20
+2026-01-12 16:11:49 [ERROR]: error: relation "sdsi_projects" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:350:20
+2026-01-12 16:12:09 [ERROR]: error: relation "sdsi_projects" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:160:20
+2026-01-12 16:12:09 [ERROR]: error: relation "sdsi_projects" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:160:20
+2026-01-12 16:12:09 [ERROR]: error: relation "sdsi_strategic_axes" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:17:20
+2026-01-12 16:12:09 [ERROR]: error: relation "sdsi_strategic_axes" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:17:20
+2026-01-13 07:53:30 [ERROR]: error: role "postgres" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/auth.routes.js:126:20
+2026-01-13 07:53:41 [ERROR]: error: role "postgres" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/auth.routes.js:126:20
+2026-01-13 07:54:38 [ERROR]: error: role "postgres" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/auth.routes.js:126:20
+2026-01-13 07:54:53 [ERROR]: error: role "postgres" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/auth.routes.js:126:20
+2026-01-13 07:56:20 [ERROR]: error: role "postgres" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async runMigrations (/Users/macbookpro/BIS-GESPROJET/backend/src/database/migrate.js:606:5)
+2026-01-13 08:06:24 [ERROR]: error: invalid input syntax for type uuid: "batch"
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/item.routes.js:252:24
+2026-01-13 19:14:20 [ERROR]: error: invalid input syntax for type json
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/item.routes.js:224:5
+2026-01-13 19:14:24 [ERROR]: error: invalid input syntax for type json
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/item.routes.js:224:5
+2026-01-13 19:14:25 [ERROR]: error: invalid input syntax for type json
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/item.routes.js:224:5
+2026-01-13 19:16:55 [ERROR]: error: invalid input syntax for type json
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/item.routes.js:221:5
+2026-01-13 19:17:09 [ERROR]: error: invalid input syntax for type json
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/item.routes.js:221:5
+2026-01-13 19:17:33 [ERROR]: error: invalid input syntax for type uuid: "batch"
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/item.routes.js:262:24
+2026-01-13 19:17:44 [ERROR]: error: invalid input syntax for type uuid: "batch"
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/item.routes.js:262:24
+2026-01-13 19:23:21 [ERROR]: error: invalid input syntax for type json
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/item.routes.js:321:5
+2026-01-13 19:23:25 [ERROR]: error: invalid input syntax for type json
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/item.routes.js:321:5
+2026-01-13 23:24:53 [ERROR]: error: invalid input syntax for type uuid: "undefined"
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/permission.routes.js:260:24
+2026-01-13 23:24:53 [ERROR]: error: invalid input syntax for type uuid: "undefined"
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/permission.routes.js:260:24
+2026-01-13 23:24:55 [ERROR]: error: invalid input syntax for type uuid: "undefined"
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/permission.routes.js:346:5
+2026-01-13 23:24:58 [ERROR]: error: invalid input syntax for type uuid: "undefined"
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/permission.routes.js:346:5
+2026-01-15 00:35:08 [ERROR]: error: relation "sdsi_phases" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:1784:28
+2026-01-15 01:11:37 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 01:11:38 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 01:12:14 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 01:12:14 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 01:15:21 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 01:15:22 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 01:16:40 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 01:16:55 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 01:16:55 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 01:17:28 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 01:17:28 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 01:17:32 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 01:18:05 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 01:18:36 [ERROR]: error: column "description" of relation "automations" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/automation.routes.js:114:20
+2026-01-15 01:18:43 [ERROR]: error: column "description" of relation "automations" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/automation.routes.js:114:20
+2026-01-15 01:23:57 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 01:23:57 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 17:16:57 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 17:16:57 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 17:58:42 [ERROR]: error: invalid input syntax for type date: ""
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:893:20
+2026-01-15 17:58:45 [ERROR]: error: invalid input syntax for type date: ""
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:893:20
+2026-01-15 17:58:46 [ERROR]: error: invalid input syntax for type date: ""
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:893:20
+2026-01-15 17:58:46 [ERROR]: error: invalid input syntax for type date: ""
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:893:20
+2026-01-15 17:58:47 [ERROR]: error: invalid input syntax for type date: ""
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:893:20
+2026-01-15 17:58:47 [ERROR]: error: invalid input syntax for type date: ""
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:893:20
+2026-01-15 17:59:40 [ERROR]: error: invalid input syntax for type date: ""
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:893:20
+2026-01-15 17:59:47 [ERROR]: error: invalid input syntax for type date: ""
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:893:20
+2026-01-15 17:59:56 [ERROR]: error: invalid input syntax for type date: ""
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:893:20
+2026-01-15 17:59:58 [ERROR]: error: invalid input syntax for type date: ""
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:893:20
+2026-01-15 23:45:25 [ERROR]: error: relation "sdsi_project_expenses" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:632:20
+2026-01-15 23:45:25 [ERROR]: error: relation "sdsi_project_expenses" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:632:20
+2026-01-15 23:45:48 [ERROR]: error: relation "sdsi_project_expenses" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:632:20
+2026-01-15 23:46:19 [ERROR]: error: relation "sdsi_project_expenses" does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/sdsi.routes.js:632:20
+2026-01-15 23:55:17 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-15 23:55:18 [ERROR]: error: column c.type does not exist
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/workspace.routes.js:218:26
+2026-01-16 00:20:06 [ERROR]: error: invalid input syntax for type uuid: "Derly MOUPEPIDI"
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/ticket.routes.js:457:20
+2026-01-16 00:20:57 [ERROR]: error: invalid input syntax for type uuid: "Derly MOUPEPIDI"
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend/src/routes/ticket.routes.js:457:20
