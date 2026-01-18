@@ -126,6 +126,20 @@ app.get("/api/health", (req, res) => {
   res.json({ status: "ok", timestamp: new Date().toISOString() });
 });
 
+// Email test endpoint (for debugging)
+app.get("/api/test-email-config", async (req, res) => {
+  const { testEmailConnection } = require('./services/email.service');
+  const result = await testEmailConnection();
+  res.json({
+    ...result,
+    smtpHost: process.env.SMTP_HOST,
+    smtpPort: process.env.SMTP_PORT,
+    smtpUser: process.env.SMTP_USER ? '***configured***' : 'NOT SET',
+    smtpPassword: process.env.SMTP_PASSWORD ? '***configured***' : 'NOT SET',
+    emailFrom: process.env.EMAIL_FROM || 'NOT SET'
+  });
+});
+
 // Socket.IO status endpoint for debugging
 app.get("/api/socket-status", (req, res) => {
   res.json({

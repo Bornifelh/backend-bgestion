@@ -2,22 +2,28 @@ const nodemailer = require('nodemailer');
 const config = require('../config');
 const logger = require('../utils/logger');
 
-// Create transporter
-const createTransporter = () => {
-  // For development, use ethereal email or console log
+// Create transporter - lazily initialized
+let transporter = null;
+
+const getTransporter = () => {
+  if (transporter) return transporter;
+
+  // For development without SMTP, simulate emails
   if (process.env.NODE_ENV !== 'production' && !process.env.SMTP_HOST) {
-    return {
+    transporter = {
       sendMail: async (options) => {
         logger.info('📧 Email simulé (dev mode):');
         logger.info(`   To: ${options.to}`);
         logger.info(`   Subject: ${options.subject}`);
         logger.info(`   Preview: ${options.text?.substring(0, 100)}...`);
         return { messageId: 'dev-mode-' + Date.now() };
-      }
+      },
+      verify: async () => true
     };
+    return transporter;
   }
 
-  return nodemailer.createTransport({
+  const smtpConfig = {
     host: process.env.SMTP_HOST || 'smtp.gmail.com',
     port: parseInt(process.env.SMTP_PORT) || 587,
     secure: process.env.SMTP_SECURE === 'true',
@@ -25,15 +31,47 @@ const createTransporter = () => {
       user: process.env.SMTP_USER,
       pass: process.env.SMTP_PASSWORD || process.env.SMTP_PASS,
     },
+    // Gmail specific settings
+    tls: {
+      rejectUnauthorized: false
+    },
+    // Debug settings
+    debug: process.env.NODE_ENV !== 'production',
+    logger: process.env.NODE_ENV !== 'production'
+  };
+
+  logger.info('📧 Creating SMTP transporter with config:', {
+    host: smtpConfig.host,
+    port: smtpConfig.port,
+    secure: smtpConfig.secure,
+    user: smtpConfig.auth.user,
+    passLength: smtpConfig.auth.pass?.length || 0
   });
+
+  transporter = nodemailer.createTransport(smtpConfig);
+  return transporter;
 };
 
-const transporter = createTransporter();
+// Verify SMTP connection
+const verifyConnection = async () => {
+  try {
+    const t = getTransporter();
+    if (t.verify) {
+      await t.verify();
+      logger.info('✅ SMTP connection verified successfully');
+      return true;
+    }
+    return true;
+  } catch (error) {
+    logger.error('❌ SMTP connection verification failed:', error.message);
+    return false;
+  }
+};
 
 // Email templates
 const templates = {
   invitation: (data) => ({
-    subject: `Invitation à rejoindre ${data.workspaceName} sur Time Tracker`,
+    subject: `Invitation à rejoindre ${data.workspaceName} sur GesProjet`,
     html: `
       <!DOCTYPE html>
       <html>
@@ -57,7 +95,7 @@ const templates = {
       <body>
         <div class="container">
           <div class="header">
-            <h1>🚀 Time Tracker</h1>
+            <h1>🚀 BIS-GesProjet</h1>
           </div>
           <div class="content">
             <h2>Bienvenue !</h2>
@@ -76,7 +114,7 @@ const templates = {
             </div>
           </div>
           <div class="footer">
-            <p>Time Tracker - Gestion de projets collaborative</p>
+            <p>BIS-GesProjet - Gestion de projets collaborative</p>
             <p>Cet email a été envoyé automatiquement, merci de ne pas y répondre.</p>
           </div>
         </div>
@@ -84,7 +122,7 @@ const templates = {
       </html>
     `,
     text: `
-Bienvenue sur Time Tracker !
+Bienvenue sur BIS-GesProjet !
 
 Vous avez été invité(e) par ${data.inviterName} à rejoindre l'espace de travail "${data.workspaceName}".
 
@@ -137,6 +175,37 @@ IMPORTANT: Vous devrez changer votre mot de passe lors de votre première connex
   })
 };
 
+// Parse EMAIL_FROM which can be in format: "Name" <email> or just email
+const getFromAddress = () => {
+  const emailFrom = process.env.EMAIL_FROM;
+  const smtpUser = process.env.SMTP_USER;
+  
+  if (emailFrom) {
+    // If EMAIL_FROM contains both name and email, clean it up
+    // Remove extra quotes that might be in env var
+    const cleaned = emailFrom.replace(/^["']|["']$/g, '').trim();
+    
+    // Check if it's in format: "Name" <email> or Name <email>
+    if (cleaned.includes('<') && cleaned.includes('>')) {
+      return cleaned;
+    }
+    
+    // If it's just a name, add the SMTP user as email
+    if (smtpUser) {
+      return `"${cleaned}" <${smtpUser}>`;
+    }
+    
+    return cleaned;
+  }
+  
+  // Default fallback
+  if (smtpUser) {
+    return `"GesProjet" <${smtpUser}>`;
+  }
+  
+  return '"GesProjet" <noreply@gesprojet.tech>';
+};
+
 // Send email function
 const sendEmail = async (to, templateName, data) => {
   try {
@@ -146,13 +215,17 @@ const sendEmail = async (to, templateName, data) => {
     }
 
     const emailContent = template(data);
+    const fromAddress = getFromAddress();
     
-    const fromAddress = process.env.EMAIL_FROM || process.env.SMTP_FROM || '"Time Tracker" <noreply@timetracker.app>';
+    logger.info(`📧 Preparing email to ${to}`);
+    logger.info(`   From: ${fromAddress}`);
+    logger.info(`   Subject: ${emailContent.subject}`);
+    logger.info(`   SMTP: ${process.env.SMTP_HOST}:${process.env.SMTP_PORT}`);
+    logger.info(`   User: ${process.env.SMTP_USER}`);
     
-    logger.info(`📧 Sending email to ${to} from ${fromAddress}`);
-    logger.info(`   SMTP Host: ${process.env.SMTP_HOST}, Port: ${process.env.SMTP_PORT}, User: ${process.env.SMTP_USER}`);
+    const t = getTransporter();
     
-    const info = await transporter.sendMail({
+    const info = await t.sendMail({
       from: fromAddress,
       to,
       subject: emailContent.subject,
@@ -160,16 +233,45 @@ const sendEmail = async (to, templateName, data) => {
       html: emailContent.html,
     });
 
-    logger.info(`✅ Email sent: ${info.messageId} to ${to}`);
+    logger.info(`✅ Email sent successfully!`);
+    logger.info(`   MessageId: ${info.messageId}`);
+    logger.info(`   Response: ${info.response}`);
+    
     return { success: true, messageId: info.messageId };
   } catch (error) {
     logger.error('❌ Send email error:', error.message);
-    logger.error('   Full error:', error);
+    logger.error('   Error code:', error.code);
+    logger.error('   Error command:', error.command);
+    if (error.response) {
+      logger.error('   SMTP Response:', error.response);
+    }
     throw error;
+  }
+};
+
+// Test email function for debugging
+const testEmailConnection = async () => {
+  try {
+    logger.info('🔧 Testing email configuration...');
+    await verifyConnection();
+    
+    logger.info('📧 Email config:', {
+      host: process.env.SMTP_HOST,
+      port: process.env.SMTP_PORT,
+      user: process.env.SMTP_USER,
+      from: getFromAddress()
+    });
+    
+    return { success: true, from: getFromAddress() };
+  } catch (error) {
+    logger.error('❌ Email test failed:', error.message);
+    return { success: false, error: error.message };
   }
 };
 
 module.exports = {
   sendEmail,
-  templates
+  templates,
+  verifyConnection,
+  testEmailConnection
 };
