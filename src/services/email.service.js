@@ -23,7 +23,7 @@ const createTransporter = () => {
     secure: process.env.SMTP_SECURE === 'true',
     auth: {
       user: process.env.SMTP_USER,
-      pass: process.env.SMTP_PASS,
+      pass: process.env.SMTP_PASSWORD || process.env.SMTP_PASS,
     },
   });
 };
@@ -147,18 +147,24 @@ const sendEmail = async (to, templateName, data) => {
 
     const emailContent = template(data);
     
+    const fromAddress = process.env.EMAIL_FROM || process.env.SMTP_FROM || '"Time Tracker" <noreply@timetracker.app>';
+    
+    logger.info(`📧 Sending email to ${to} from ${fromAddress}`);
+    logger.info(`   SMTP Host: ${process.env.SMTP_HOST}, Port: ${process.env.SMTP_PORT}, User: ${process.env.SMTP_USER}`);
+    
     const info = await transporter.sendMail({
-      from: process.env.SMTP_FROM || '"Time Tracker" <noreply@timetracker.app>',
+      from: fromAddress,
       to,
       subject: emailContent.subject,
       text: emailContent.text,
       html: emailContent.html,
     });
 
-    logger.info(`Email sent: ${info.messageId} to ${to}`);
+    logger.info(`✅ Email sent: ${info.messageId} to ${to}`);
     return { success: true, messageId: info.messageId };
   } catch (error) {
-    logger.error('Send email error:', error);
+    logger.error('❌ Send email error:', error.message);
+    logger.error('   Full error:', error);
     throw error;
   }
 };

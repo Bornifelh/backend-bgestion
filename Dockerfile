@@ -23,11 +23,11 @@ COPY . .
 RUN mkdir -p uploads logs
 
 # Exposer le port
-EXPOSE 3001
+EXPOSE 3000
 
 # Variables d'environnement par défaut
 ENV NODE_ENV=production
-ENV PORT=3001
+ENV PORT=3000
 
 # Commande de démarrage
 CMD ["node", "src/index.js"]

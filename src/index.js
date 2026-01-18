@@ -35,6 +35,9 @@ const db = require("./database/db");
 const app = express();
 const httpServer = createServer(app);
 
+// Trust proxy - required for rate limiting behind reverse proxy (Coolify/nginx)
+app.set('trust proxy', 1);
+
 // CORS origins configuration
 const getCorsOrigins = () => {
   const corsOrigins = process.env.CORS_ORIGINS || process.env.FRONTEND_URL;
@@ -165,7 +168,7 @@ app.use((req, res) => {
   res.status(404).json({ error: "Route non trouvée" });
 });
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 const HOST = process.env.HOST || '0.0.0.0';
 
 httpServer.listen(PORT, HOST, () => {
