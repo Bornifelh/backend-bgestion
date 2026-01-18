@@ -35,10 +35,21 @@ const db = require("./database/db");
 const app = express();
 const httpServer = createServer(app);
 
+// CORS origins configuration
+const getCorsOrigins = () => {
+  const corsOrigins = process.env.CORS_ORIGINS || process.env.FRONTEND_URL;
+  if (corsOrigins) {
+    return corsOrigins.split(',').map(origin => origin.trim());
+  }
+  return ["http://localhost:5173", "http://localhost:3000"];
+};
+
+const allowedOrigins = getCorsOrigins();
+
 // Socket.IO configuration
 const io = new Server(httpServer, {
   cors: {
-    origin: process.env.FRONTEND_URL || "http://localhost:5173",
+    origin: allowedOrigins,
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   },
@@ -48,7 +59,7 @@ const io = new Server(httpServer, {
 app.use(helmet());
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:5173",
+    origin: allowedOrigins,
     credentials: true,
   })
 );
@@ -155,10 +166,12 @@ app.use((req, res) => {
 });
 
 const PORT = process.env.PORT || 3001;
+const HOST = process.env.HOST || '0.0.0.0';
 
-httpServer.listen(PORT, () => {
-  logger.info(`🚀 Server running on port ${PORT}`);
+httpServer.listen(PORT, HOST, () => {
+  logger.info(`🚀 Server running on ${HOST}:${PORT}`);
   logger.info(`📡 Socket.IO ready for connections`);
+  logger.info(`🔒 CORS origins: ${JSON.stringify(allowedOrigins)}`);
 });
 
 module.exports = { app, io };
