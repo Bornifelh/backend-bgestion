@@ -6,6 +6,8 @@ const rateLimit = require("express-rate-limit");
 const { createServer } = require("http");
 const { Server } = require("socket.io");
 
+const path = require("path");
+
 const authRoutes = require("./routes/auth.routes");
 const userRoutes = require("./routes/user.routes");
 const workspaceRoutes = require("./routes/workspace.routes");
@@ -24,6 +26,7 @@ const searchRoutes = require("./routes/search.routes");
 const exportRoutes = require("./routes/export.routes");
 const automationRoutes = require("./routes/automation.routes");
 const ticketRoutes = require("./routes/ticket.routes");
+const fileRoutes = require("./routes/file.routes");
 
 const { authenticateSocket } = require("./middleware/auth.middleware");
 const logger = require("./utils/logger");
@@ -51,6 +54,15 @@ app.use(
 );
 app.use(express.json({ limit: "40mb" }));
 app.use(express.urlencoded({ extended: true }));
+
+// Serve uploaded files statically (for Office 365 Online access)
+app.use("/uploads", express.static(path.join(__dirname, "../uploads"), {
+  setHeaders: (res, filePath) => {
+    // Allow cross-origin access for Office Online
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Methods", "GET, HEAD, OPTIONS");
+  }
+}));
 
 // Rate limiting - disabled in development
 const isDev = process.env.NODE_ENV !== "production";
@@ -84,6 +96,7 @@ app.use("/api/search", searchRoutes);
 app.use("/api/export", exportRoutes);
 app.use("/api/automations", automationRoutes);
 app.use("/api/tickets", ticketRoutes);
+app.use("/api/files", fileRoutes);
 
 // Health check
 app.get("/api/health", (req, res) => {

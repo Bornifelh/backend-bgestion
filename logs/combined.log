@@ -3565,3 +3565,85 @@
 2026-01-16 01:17:59 [INFO]: 🚀 Server running on port 3001
 2026-01-16 01:17:59 [INFO]: 📡 Socket.IO ready for connections
 2026-01-16 01:17:59 [INFO]: Connected to Redis
+2026-01-18 18:45:10 [INFO]: 🚀 Server running on port 3001
+2026-01-18 18:45:10 [INFO]: 📡 Socket.IO ready for connections
+2026-01-18 18:45:10 [INFO]: Connected to Redis
+2026-01-18 18:45:23 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:48:42 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:48:43 [INFO]: User logged in: moupepidi@gmail.com
+2026-01-18 18:48:44 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:48:44 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:48:45 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 18:48:55 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-01-18 18:49:18 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 0b898a3e-bb81-435e-818f-7f4a2c13b13b
+2026-01-18 18:49:18 [INFO]: User logged in: moupepidi@gmail.com
+2026-01-18 18:49:19 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:49:19 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:49:20 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 18:49:22 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-01-18 18:49:44 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 0b898a3e-bb81-435e-818f-7f4a2c13b13b
+2026-01-18 18:50:32 [WARN]: Activity log insert failed:
+2026-01-18 18:50:33 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:51:46 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:51:53 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-01-18 18:51:53 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-01-18 18:51:54 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 0b898a3e-bb81-435e-818f-7f4a2c13b13b
+2026-01-18 18:51:54 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 0b898a3e-bb81-435e-818f-7f4a2c13b13b
+2026-01-18 18:52:03 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 18:52:05 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:52:05 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 18:52:22 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 0b898a3e-bb81-435e-818f-7f4a2c13b13b
+2026-01-18 18:52:39 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 18:52:41 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 18:52:41 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:52:41 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:52:50 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 0b898a3e-bb81-435e-818f-7f4a2c13b13b
+2026-01-18 18:53:29 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:54:28 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:54:28 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 18:54:28 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:56:21 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:56:21 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:56:21 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-01-18 18:56:23 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 0b898a3e-bb81-435e-818f-7f4a2c13b13b
+2026-01-18 18:56:23 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 0b898a3e-bb81-435e-818f-7f4a2c13b13b
+2026-01-18 18:57:47 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:57:50 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:57:52 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:57:53 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:57:53 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:57:53 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:57:54 [WARN]: Activity log insert failed:
+2026-01-18 18:57:55 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:57:57 [WARN]: Activity log insert failed:
+2026-01-18 18:57:59 [WARN]: Activity log insert failed:
+2026-01-18 18:57:59 [WARN]: Activity log insert failed:
+2026-01-18 18:58:05 [WARN]: Activity log insert failed:
+2026-01-18 18:58:08 [WARN]: Activity log insert failed:
+2026-01-18 18:59:44 [INFO]: 🚀 Server running on port 3001
+2026-01-18 18:59:44 [INFO]: 📡 Socket.IO ready for connections
+2026-01-18 18:59:44 [INFO]: Connected to Redis
+2026-01-18 18:59:46 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:59:47 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 18:59:54 [INFO]: 🚀 Server running on port 3001
+2026-01-18 18:59:54 [INFO]: 📡 Socket.IO ready for connections
+2026-01-18 18:59:54 [INFO]: Connected to Redis
+2026-01-18 18:59:57 [INFO]: Connected to PostgreSQL database
+2026-01-18 18:59:57 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 19:00:00 [INFO]: 🚀 Server running on port 3001
+2026-01-18 19:00:00 [INFO]: 📡 Socket.IO ready for connections
+2026-01-18 19:00:00 [INFO]: Connected to Redis
+2026-01-18 19:00:03 [INFO]: Connected to PostgreSQL database
+2026-01-18 19:00:03 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 19:00:06 [INFO]: 🚀 Server running on port 3001
+2026-01-18 19:00:06 [INFO]: 📡 Socket.IO ready for connections
+2026-01-18 19:00:06 [INFO]: Connected to Redis
+2026-01-18 19:00:07 [INFO]: Connected to PostgreSQL database
+2026-01-18 19:00:08 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 19:00:26 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 19:00:29 [INFO]: Connected to PostgreSQL database
+2026-01-18 19:00:29 [INFO]: Connected to PostgreSQL database
+2026-01-18 19:00:30 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 19:00:30 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 19:00:30 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-01-18 19:00:37 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 0b898a3e-bb81-435e-818f-7f4a2c13b13b
