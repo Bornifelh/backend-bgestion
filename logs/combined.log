@@ -3647,3 +3647,17 @@
 2026-01-18 19:00:30 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
 2026-01-18 19:00:30 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
 2026-01-18 19:00:37 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 0b898a3e-bb81-435e-818f-7f4a2c13b13b
+2026-01-18 19:02:20 [INFO]: 🚀 Server running on port 3001
+2026-01-18 19:02:20 [INFO]: 📡 Socket.IO ready for connections
+2026-01-18 19:02:20 [INFO]: Connected to Redis
+2026-01-18 19:02:51 [INFO]: Connected to PostgreSQL database
+2026-01-18 19:02:51 [INFO]: User logged in: moupepidi@gmail.com
+2026-01-18 19:02:52 [INFO]: Connected to PostgreSQL database
+2026-01-18 19:02:54 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/backend-bgestion/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Array.authenticateSocket (/Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/middleware/auth.middleware.js:67:20)
+2026-01-18 19:03:46 [INFO]: Connected to PostgreSQL database
+2026-01-18 19:03:47 [INFO]: Connected to PostgreSQL database
+2026-01-18 19:04:03 [INFO]: Connected to PostgreSQL database
+2026-01-18 19:09:06 [INFO]: Connected to PostgreSQL database
