@@ -49,13 +49,22 @@ const getCorsOrigins = () => {
 
 const allowedOrigins = getCorsOrigins();
 
-// Socket.IO configuration
+// Socket.IO configuration - optimized for reverse proxy (Coolify)
 const io = new Server(httpServer, {
   cors: {
     origin: allowedOrigins,
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   },
+  // Allow both transports, prefer websocket
+  transports: ["websocket", "polling"],
+  // Increase timeouts for reverse proxy
+  pingTimeout: 60000,
+  pingInterval: 25000,
+  // Allow upgrades from polling to websocket
+  allowUpgrades: true,
+  // Needed for reverse proxy
+  allowEIO3: true,
 });
 
 // Middleware
@@ -115,6 +124,17 @@ app.use("/api/files", fileRoutes);
 // Health check
 app.get("/api/health", (req, res) => {
   res.json({ status: "ok", timestamp: new Date().toISOString() });
+});
+
+// Socket.IO status endpoint for debugging
+app.get("/api/socket-status", (req, res) => {
+  res.json({
+    status: "ok",
+    socketPath: "/socket.io",
+    transports: ["websocket", "polling"],
+    connectedClients: io.engine.clientsCount || 0,
+    corsOrigins: allowedOrigins
+  });
 });
 
 // Socket.IO middleware

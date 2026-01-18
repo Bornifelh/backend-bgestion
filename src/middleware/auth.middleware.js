@@ -58,11 +58,20 @@ const authenticateSocket = async (socket, next) => {
   try {
     const token = socket.handshake.auth.token || socket.handshake.query.token;
     
+    logger.info(`Socket auth attempt - token present: ${!!token}`);
+    
     if (!token) {
+      logger.warn('Socket connection rejected: no token provided');
       return next(new Error('Token d\'authentification requis'));
     }
     
-    const decoded = jwt.verify(token, config.jwt.secret);
+    let decoded;
+    try {
+      decoded = jwt.verify(token, config.jwt.secret);
+    } catch (jwtError) {
+      logger.warn(`Socket JWT error: ${jwtError.message}`);
+      return next(new Error('Token invalide ou expiré'));
+    }
     
     const result = await db.query(
       'SELECT id, email, first_name, last_name, role, is_active FROM users WHERE id = $1',
@@ -70,19 +79,26 @@ const authenticateSocket = async (socket, next) => {
     );
     
     if (result.rows.length === 0 || !result.rows[0].is_active) {
+      logger.warn(`Socket auth failed: user ${decoded.userId} not found or inactive`);
       return next(new Error('Utilisateur non autorisé'));
     }
     
     socket.userId = decoded.userId;
     socket.user = result.rows[0];
     
-    // Track online users
-    await cache.setUserOnline(decoded.userId, socket.id);
+    // Track online users (non-blocking, don't fail connection if Redis is down)
+    try {
+      await cache.setUserOnline(decoded.userId, socket.id);
+    } catch (cacheError) {
+      logger.warn('Failed to track user online status:', cacheError.message);
+      // Continue anyway - Redis failure shouldn't prevent socket connection
+    }
     
+    logger.info(`Socket authenticated for user ${decoded.userId}`);
     next();
   } catch (error) {
     logger.error('Socket auth error:', error);
-    next(new Error('Token invalide'));
+    next(new Error('Erreur d\'authentification'));
   }
 };
 
