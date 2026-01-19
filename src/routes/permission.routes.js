@@ -714,27 +714,79 @@ router.post('/groups', authenticate, async (req, res) => {
 router.put('/groups/:groupId', authenticate, async (req, res) => {
   try {
     const { groupId } = req.params;
-    const { name, description, color } = req.body;
+    const { name, description, color, memberIds } = req.body;
 
-    const updates = [];
-    const values = [];
-    let paramCount = 1;
-
-    if (name !== undefined) { updates.push(`name = $${paramCount++}`); values.push(name); }
-    if (description !== undefined) { updates.push(`description = $${paramCount++}`); values.push(description); }
-    if (color !== undefined) { updates.push(`color = $${paramCount++}`); values.push(color); }
-
-    if (updates.length === 0) {
-      return res.status(400).json({ error: 'Aucune donnée à mettre à jour' });
+    // Check access - get group's workspace and verify user is admin
+    const groupCheck = await db.query(
+      `SELECT g.workspace_id FROM user_groups g WHERE g.id = $1`,
+      [groupId]
+    );
+    
+    if (groupCheck.rows.length === 0) {
+      return res.status(404).json({ error: 'Groupe non trouvé' });
     }
 
-    values.push(groupId);
-    await db.query(
-      `UPDATE user_groups SET ${updates.join(', ')} WHERE id = $${paramCount}`,
-      values
+    const workspaceId = groupCheck.rows[0].workspace_id;
+    
+    const accessCheck = await db.query(
+      `SELECT role FROM workspace_members WHERE workspace_id = $1 AND user_id = $2`,
+      [workspaceId, req.userId]
     );
+    
+    if (accessCheck.rows.length === 0 || !['owner', 'admin'].includes(accessCheck.rows[0].role)) {
+      return res.status(403).json({ error: 'Accès non autorisé' });
+    }
 
-    res.json({ message: 'Groupe mis à jour' });
+    const client = await db.pool.connect();
+    try {
+      await client.query('BEGIN');
+
+      // Update group info if provided
+      const updates = [];
+      const values = [];
+      let paramCount = 1;
+
+      if (name !== undefined) { updates.push(`name = $${paramCount++}`); values.push(name); }
+      if (description !== undefined) { updates.push(`description = $${paramCount++}`); values.push(description); }
+      if (color !== undefined) { updates.push(`color = $${paramCount++}`); values.push(color); }
+
+      if (updates.length > 0) {
+        values.push(groupId);
+        await client.query(
+          `UPDATE user_groups SET ${updates.join(', ')} WHERE id = $${paramCount}`,
+          values
+        );
+      }
+
+      // Update members if provided
+      if (memberIds !== undefined) {
+        // Remove all existing members
+        await client.query(
+          'DELETE FROM user_group_members WHERE group_id = $1',
+          [groupId]
+        );
+
+        // Add new members
+        if (memberIds && memberIds.length > 0) {
+          for (const memberId of memberIds) {
+            await client.query(
+              'INSERT INTO user_group_members (group_id, user_id) VALUES ($1, $2) ON CONFLICT DO NOTHING',
+              [groupId, memberId]
+            );
+          }
+        }
+      }
+
+      await client.query('COMMIT');
+
+      logger.info(`Group ${groupId} updated by user ${req.userId}`);
+      res.json({ message: 'Groupe mis à jour' });
+    } catch (e) {
+      await client.query('ROLLBACK');
+      throw e;
+    } finally {
+      client.release();
+    }
   } catch (error) {
     logger.error('Update group error:', error);
     res.status(500).json({ error: 'Erreur' });
