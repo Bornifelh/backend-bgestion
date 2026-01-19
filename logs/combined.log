@@ -3709,3 +3709,7 @@
 2026-01-19 01:03:52 [INFO]: 📡 Socket.IO ready for connections
 2026-01-19 01:03:52 [INFO]: 🔒 CORS origins: ["http://localhost:5173","http://localhost:3000"]
 2026-01-19 01:03:52 [INFO]: Connected to Redis
+2026-01-19 01:04:35 [INFO]: 🚀 Server running on 0.0.0.0:3000
+2026-01-19 01:04:35 [INFO]: 📡 Socket.IO ready for connections
+2026-01-19 01:04:35 [INFO]: 🔒 CORS origins: ["http://localhost:5173","http://localhost:3000"]
+2026-01-19 01:04:35 [INFO]: Connected to Redis
