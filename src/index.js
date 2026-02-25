@@ -27,6 +27,14 @@ const exportRoutes = require("./routes/export.routes");
 const automationRoutes = require("./routes/automation.routes");
 const ticketRoutes = require("./routes/ticket.routes");
 const fileRoutes = require("./routes/file.routes");
+const timeEntryRoutes = require("./routes/timeEntry.routes");
+const favoriteRoutes = require("./routes/favorite.routes");
+const dependencyRoutes = require("./routes/dependency.routes");
+const sprintRoutes = require("./routes/sprint.routes");
+const templateRoutes = require("./routes/template.routes");
+const savedFilterRoutes = require("./routes/savedFilter.routes");
+const dashboardRoutes = require("./routes/dashboard.routes");
+const reportRoutes = require("./routes/report.routes");
 
 const { authenticateSocket } = require("./middleware/auth.middleware");
 const logger = require("./utils/logger");
@@ -120,6 +128,14 @@ app.use("/api/export", exportRoutes);
 app.use("/api/automations", automationRoutes);
 app.use("/api/tickets", ticketRoutes);
 app.use("/api/files", fileRoutes);
+app.use("/api/time-entries", timeEntryRoutes);
+app.use("/api/favorites", favoriteRoutes);
+app.use("/api/dependencies", dependencyRoutes);
+app.use("/api/sprints", sprintRoutes);
+app.use("/api/templates", templateRoutes);
+app.use("/api/saved-filters", savedFilterRoutes);
+app.use("/api/dashboard", dashboardRoutes);
+app.use("/api/reports", reportRoutes);
 
 // Health check
 app.get("/api/health", (req, res) => {

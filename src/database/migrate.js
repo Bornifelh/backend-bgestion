@@ -377,6 +377,62 @@ CREATE TABLE IF NOT EXISTS item_dependencies (
   UNIQUE(item_id, depends_on_id)
 );
 
+-- Sprints table
+CREATE TABLE IF NOT EXISTS sprints (
+  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  board_id UUID REFERENCES boards(id) ON DELETE CASCADE,
+  name VARCHAR(255) NOT NULL,
+  goal TEXT,
+  start_date DATE,
+  end_date DATE,
+  status VARCHAR(50) DEFAULT 'planning',
+  created_by UUID REFERENCES users(id),
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Sprint items junction table
+CREATE TABLE IF NOT EXISTS sprint_items (
+  sprint_id UUID REFERENCES sprints(id) ON DELETE CASCADE,
+  item_id UUID REFERENCES items(id) ON DELETE CASCADE,
+  added_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (sprint_id, item_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_sprints_board ON sprints(board_id);
+CREATE INDEX IF NOT EXISTS idx_sprints_status ON sprints(status);
+CREATE INDEX IF NOT EXISTS idx_sprint_items_sprint ON sprint_items(sprint_id);
+CREATE INDEX IF NOT EXISTS idx_sprint_items_item ON sprint_items(item_id);
+
+-- Saved filters table
+CREATE TABLE IF NOT EXISTS saved_filters (
+  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  board_id UUID REFERENCES boards(id) ON DELETE CASCADE,
+  user_id UUID REFERENCES users(id) ON DELETE CASCADE,
+  name VARCHAR(255) NOT NULL,
+  filters JSONB DEFAULT '[]',
+  sorts JSONB DEFAULT '[]',
+  is_shared BOOLEAN DEFAULT false,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Dashboard widgets table
+CREATE TABLE IF NOT EXISTS dashboard_widgets (
+  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  workspace_id UUID REFERENCES workspaces(id) ON DELETE CASCADE,
+  user_id UUID REFERENCES users(id) ON DELETE CASCADE,
+  widget_type VARCHAR(100) NOT NULL,
+  title VARCHAR(255),
+  config JSONB DEFAULT '{}',
+  position_x INTEGER DEFAULT 0,
+  position_y INTEGER DEFAULT 0,
+  width INTEGER DEFAULT 1,
+  height INTEGER DEFAULT 1,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
 -- Create indexes for performance
 CREATE INDEX IF NOT EXISTS idx_subtasks_item ON subtasks(item_id);
 CREATE INDEX IF NOT EXISTS idx_time_entries_item ON time_entries(item_id);

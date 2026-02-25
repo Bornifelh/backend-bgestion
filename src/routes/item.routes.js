@@ -560,4 +560,70 @@ router.post('/:itemId/duplicate', authenticate, async (req, res) => {
   }
 });
 
+// ==========================================
+// WATCHERS (item_subscribers)
+// ==========================================
+
+// Get watchers for an item
+router.get('/:itemId/watchers', authenticate, async (req, res) => {
+  try {
+    const { rows } = await db.query(
+      `SELECT u.id, u.first_name, u.last_name, u.email
+      FROM item_subscribers s
+      JOIN users u ON s.user_id = u.id
+      WHERE s.item_id = $1
+      ORDER BY s.created_at ASC`,
+      [req.params.itemId]
+    );
+    res.json(rows);
+  } catch (error) {
+    logger.error('Get watchers error:', error);
+    res.status(500).json({ error: 'Erreur serveur' });
+  }
+});
+
+// Watch an item
+router.post('/:itemId/watch', authenticate, async (req, res) => {
+  try {
+    await db.query(
+      `INSERT INTO item_subscribers (item_id, user_id)
+      VALUES ($1, $2)
+      ON CONFLICT (item_id, user_id) DO NOTHING`,
+      [req.params.itemId, req.userId]
+    );
+    res.json({ watching: true });
+  } catch (error) {
+    logger.error('Watch item error:', error);
+    res.status(500).json({ error: 'Erreur serveur' });
+  }
+});
+
+// Unwatch an item
+router.delete('/:itemId/watch', authenticate, async (req, res) => {
+  try {
+    await db.query(
+      'DELETE FROM item_subscribers WHERE item_id = $1 AND user_id = $2',
+      [req.params.itemId, req.userId]
+    );
+    res.json({ watching: false });
+  } catch (error) {
+    logger.error('Unwatch item error:', error);
+    res.status(500).json({ error: 'Erreur serveur' });
+  }
+});
+
+// Check if user is watching an item
+router.get('/:itemId/watching', authenticate, async (req, res) => {
+  try {
+    const { rows } = await db.query(
+      'SELECT id FROM item_subscribers WHERE item_id = $1 AND user_id = $2',
+      [req.params.itemId, req.userId]
+    );
+    res.json({ watching: rows.length > 0 });
+  } catch (error) {
+    logger.error('Check watching error:', error);
+    res.status(500).json({ error: 'Erreur serveur' });
+  }
+});
+
 module.exports = router;

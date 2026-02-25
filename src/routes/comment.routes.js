@@ -77,7 +77,7 @@ router.post('/', authenticate, [
 
     // Log activity
     const itemResult = await db.query(
-      'SELECT board_id FROM items WHERE id = $1',
+      'SELECT board_id, name FROM items WHERE id = $1',
       [itemId]
     );
 
@@ -88,6 +88,61 @@ router.post('/', authenticate, [
          FROM boards b WHERE b.id = $5`,
         [itemId, req.userId, result.rows[0].id, JSON.stringify({ content: content.substring(0, 100) }), itemResult.rows[0].board_id]
       );
+
+      // Handle @mentions - extract @email or @name patterns
+      const mentionRegex = /@([\w.+-]+@[\w-]+\.[\w.-]+|[\w]+(?:\s[\w]+)?)/g;
+      const mentions = [];
+      let match;
+      while ((match = mentionRegex.exec(content)) !== null) {
+        mentions.push(match[1]);
+      }
+
+      if (mentions.length > 0) {
+        for (const mention of mentions) {
+          const mentioned = await db.query(
+            `SELECT id FROM users WHERE email = $1 OR CONCAT(first_name, ' ', last_name) ILIKE $1 LIMIT 1`,
+            [mention]
+          );
+          if (mentioned.rows[0] && mentioned.rows[0].id !== req.userId) {
+            await db.query(
+              `INSERT INTO notifications (user_id, type, title, message, data)
+               VALUES ($1, 'mention', 'Vous avez été mentionné', $2, $3)`,
+              [
+                mentioned.rows[0].id,
+                `${userResult.rows[0].first_name} vous a mentionné dans un commentaire sur "${itemResult.rows[0].name}"`,
+                JSON.stringify({ itemId, commentId: result.rows[0].id, boardId: itemResult.rows[0].board_id }),
+              ]
+            );
+
+            // Emit socket notification
+            const io = req.app.get('io');
+            if (io) {
+              io.to(`user:${mentioned.rows[0].id}`).emit('notification:new', {
+                type: 'mention',
+                title: 'Vous avez été mentionné',
+                itemId,
+              });
+            }
+          }
+        }
+      }
+
+      // Notify watchers
+      const watchers = await db.query(
+        'SELECT user_id FROM item_subscribers WHERE item_id = $1 AND user_id != $2',
+        [itemId, req.userId]
+      );
+      for (const watcher of watchers.rows) {
+        await db.query(
+          `INSERT INTO notifications (user_id, type, title, message, data)
+           VALUES ($1, 'comment', 'Nouveau commentaire', $2, $3)`,
+          [
+            watcher.user_id,
+            `${userResult.rows[0].first_name} a commenté "${itemResult.rows[0].name}"`,
+            JSON.stringify({ itemId, boardId: itemResult.rows[0].board_id }),
+          ]
+        );
+      }
     }
 
     res.status(201).json({
