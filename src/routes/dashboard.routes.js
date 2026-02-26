@@ -85,7 +85,12 @@ router.get('/workspace/:workspaceId/data', authenticate, async (req, res) => {
       JOIN boards b ON i.board_id = b.id
       JOIN columns c ON iv.column_id = c.id
       JOIN column_types ct ON c.column_type_id = ct.id AND ct.name = 'date'
-      WHERE b.workspace_id = $1 AND (iv.value::text)::date < CURRENT_DATE`,
+      WHERE b.workspace_id = $1 
+        AND iv.value IS NOT NULL 
+        AND iv.value::text != 'null'
+        AND iv.value::text != '""'
+        AND trim(both '"' from iv.value::text) ~ '^\d{4}-\d{2}-\d{2}'
+        AND trim(both '"' from iv.value::text)::date < CURRENT_DATE`,
       [wsId]
     );
 
