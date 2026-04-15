@@ -14,7 +14,12 @@ const config = {
     connectionTimeoutMillis: 2000,
   },
   jwt: {
-    secret: process.env.JWT_SECRET || undefined,
+    secret: process.env.JWT_SECRET || (() => {
+      const crypto = require('crypto');
+      const fallback = crypto.randomBytes(48).toString('hex');
+      console.warn('⚠️  JWT_SECRET non défini — clé aléatoire générée (les sessions ne survivront pas au redémarrage)');
+      return fallback;
+    })(),
     expiresIn: process.env.JWT_EXPIRES_IN || '7d',
     refreshExpiresIn: process.env.JWT_REFRESH_EXPIRES_IN || '30d',
   },

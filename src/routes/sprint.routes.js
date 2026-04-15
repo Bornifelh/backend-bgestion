@@ -287,7 +287,7 @@ router.get('/:sprintId/burndown', authenticate, async (req, res) => {
       FROM activity_logs al
       JOIN sprint_items si ON al.item_id = si.item_id
       WHERE si.sprint_id = $1 AND al.action IN ('status_changed', 'item_updated')
-        AND al.new_value::text ILIKE '%done%' OR al.new_value::text ILIKE '%completed%'
+        AND (al.new_value::text ILIKE '%done%' OR al.new_value::text ILIKE '%completed%')
       GROUP BY DATE(al.created_at)
       ORDER BY date ASC`,
       [req.params.sprintId]

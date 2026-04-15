@@ -5966,3 +5966,41 @@
 2026-04-15 18:00:44 [INFO]: Connected to PostgreSQL database
 2026-04-15 18:00:44 [INFO]: Connected to PostgreSQL database
 2026-04-15 18:00:45 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:18:32 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd (transport close)
+2026-04-15 18:18:33 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:18:34 [INFO]: Socket auth attempt - token present: true
+2026-04-15 18:18:34 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 18:18:34 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 18:18:34 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:18:34 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:22:30 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd (transport close)
+2026-04-15 18:22:31 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:22:31 [INFO]: Socket auth attempt - token present: true
+2026-04-15 18:22:32 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:22:32 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:22:32 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 18:22:32 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 18:25:55 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd (transport close)
+2026-04-15 18:25:56 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:25:56 [INFO]: Socket auth attempt - token present: true
+2026-04-15 18:25:57 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:25:57 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:25:57 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 18:25:57 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 18:56:05 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 18:56:05 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 18:56:05 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 18:56:05 [INFO]: Connected to Redis
+2026-04-15 18:56:05 [INFO]: Socket auth attempt - token present: true
+2026-04-15 18:56:06 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:56:06 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 18:56:06 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 18:56:12 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 18:56:12 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 18:56:12 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 18:56:12 [INFO]: Connected to Redis
+2026-04-15 18:56:12 [INFO]: Socket auth attempt - token present: true
+2026-04-15 18:56:13 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:56:13 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 18:56:13 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 18:58:38 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd (transport close)
