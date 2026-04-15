@@ -374,7 +374,6 @@ router.post('/workspace/:workspaceId/invite', authenticate, checkWorkspaceAccess
       message: isNewUser 
         ? 'Invitation envoyée par email avec le mot de passe temporaire'
         : 'Utilisateur ajouté au workspace',
-      tempPassword: isNewUser ? tempPassword : undefined // Only return in dev for testing
     });
   } catch (error) {
     logger.error('Send invitation error:', error);

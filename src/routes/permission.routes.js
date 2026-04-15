@@ -796,7 +796,30 @@ router.put('/groups/:groupId', authenticate, async (req, res) => {
 // Delete group
 router.delete('/groups/:groupId', authenticate, async (req, res) => {
   try {
-    await db.query('DELETE FROM user_groups WHERE id = $1', [req.params.groupId]);
+    const { groupId } = req.params;
+
+    // Check access - get group's workspace and verify user is admin
+    const groupCheck = await db.query(
+      `SELECT g.workspace_id FROM user_groups g WHERE g.id = $1`,
+      [groupId]
+    );
+
+    if (groupCheck.rows.length === 0) {
+      return res.status(404).json({ error: 'Groupe non trouvé' });
+    }
+
+    const workspaceId = groupCheck.rows[0].workspace_id;
+
+    const accessCheck = await db.query(
+      `SELECT role FROM workspace_members WHERE workspace_id = $1 AND user_id = $2`,
+      [workspaceId, req.userId]
+    );
+
+    if (accessCheck.rows.length === 0 || !['owner', 'admin'].includes(accessCheck.rows[0].role)) {
+      return res.status(403).json({ error: 'Accès non autorisé' });
+    }
+
+    await db.query('DELETE FROM user_groups WHERE id = $1', [groupId]);
     res.json({ message: 'Groupe supprimé' });
   } catch (error) {
     logger.error('Delete group error:', error);

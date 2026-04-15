@@ -362,3 +362,37 @@
     at /Users/macbookpro/BIS-GESPROJET/backend-bgestion/node_modules/pg-pool/index.js:45:11
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
     at async Array.authenticateSocket (/Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/middleware/auth.middleware.js:67:20)
+2026-04-15 13:51:30 [ERROR]: Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-04-15 16:47:15 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async checkWorkspaceAccess (/Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/middleware/auth.middleware.js:127:20)
+2026-04-15 16:47:21 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/routes/favorite.routes.js:10:22
+2026-04-15 16:47:21 [ERROR]: Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-04-15 16:47:53 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/routes/activity.routes.js:90:30
+2026-04-15 16:47:55 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async checkWorkspaceAccess (/Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/middleware/auth.middleware.js:127:20)
+2026-04-15 16:48:26 [ERROR]: Error: timeout exceeded when trying to connect
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:569:9)
+    at process.processTimers (node:internal/timers:543:7)
+    at async /Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/routes/favorite.routes.js:10:22
+2026-04-15 16:49:50 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Array.authenticateSocket (/Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/middleware/auth.middleware.js:76:20)
+2026-04-15 16:49:50 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async checkBoardAccess (/Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/middleware/auth.middleware.js:153:20)

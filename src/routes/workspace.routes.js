@@ -287,35 +287,7 @@ router.get('/:workspaceId/stats', authenticate, checkWorkspaceAccess, async (req
   }
 });
 
-// Get workspace members
-router.get('/:workspaceId/members', authenticate, checkWorkspaceAccess, async (req, res) => {
-  try {
-    const { workspaceId } = req.params;
-
-    const result = await db.query(
-      `SELECT u.id, u.email, u.first_name, u.last_name, u.avatar_url, 
-              wm.role, wm.joined_at
-       FROM users u
-       JOIN workspace_members wm ON wm.user_id = u.id
-       WHERE wm.workspace_id = $1
-       ORDER BY wm.role DESC, wm.joined_at ASC`,
-      [workspaceId]
-    );
-
-    res.json(result.rows.map(m => ({
-      id: m.id,
-      email: m.email,
-      firstName: m.first_name,
-      lastName: m.last_name,
-      avatarUrl: m.avatar_url,
-      role: m.role,
-      joinedAt: m.joined_at,
-    })));
-  } catch (error) {
-    logger.error('Get workspace members error:', error);
-    res.status(500).json({ error: 'Erreur lors de la récupération des membres' });
-  }
-});
+// GET /:workspaceId/members supprimé — utiliser GET /api/members/workspace/:workspaceId à la place
 
 // Add member to workspace
 router.post('/:workspaceId/members', authenticate, checkWorkspaceAccess, [

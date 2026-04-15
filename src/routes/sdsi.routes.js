@@ -54,7 +54,7 @@ router.get('/axes/workspace/:workspaceId', authenticate, checkWorkspaceAccess, a
 });
 
 // Create strategic axis
-router.post('/axes', authenticate, [
+router.post('/axes', authenticate, checkWorkspaceAccess, [
   body('workspaceId').isUUID(),
   body('name').trim().notEmpty(),
 ], async (req, res) => {
@@ -338,7 +338,7 @@ function formatProject(p) {
 }
 
 // Create SDSI project
-router.post('/projects', authenticate, [
+router.post('/projects', authenticate, checkWorkspaceAccess, [
   body('workspaceId').isUUID(),
   body('name').trim().notEmpty(),
 ], async (req, res) => {
@@ -1092,7 +1092,7 @@ router.get('/applications/workspace/:workspaceId', authenticate, checkWorkspaceA
   }
 });
 
-router.post('/applications', authenticate, async (req, res) => {
+router.post('/applications', authenticate, checkWorkspaceAccess, async (req, res) => {
   try {
     const {
       workspaceId, name, code, description, category, vendor, version,
@@ -1170,7 +1170,7 @@ router.get('/kpis/workspace/:workspaceId', authenticate, checkWorkspaceAccess, a
   }
 });
 
-router.post('/kpis', authenticate, async (req, res) => {
+router.post('/kpis', authenticate, checkWorkspaceAccess, async (req, res) => {
   try {
     const {
       workspaceId, axisId, projectId, name, description, category, unit,
@@ -1728,7 +1728,7 @@ router.get('/resources/workspace/:workspaceId', authenticate, checkWorkspaceAcce
   }
 });
 
-router.post('/resources', authenticate, async (req, res) => {
+router.post('/resources', authenticate, checkWorkspaceAccess, async (req, res) => {
   try {
     const { workspaceId, name, type, description, capacity, unit, costPerUnit, currency, skills, email, phone, department } = req.body;
 

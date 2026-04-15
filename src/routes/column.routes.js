@@ -25,7 +25,7 @@ router.get('/types', authenticate, async (req, res) => {
 });
 
 // Create column
-router.post('/', authenticate, [
+router.post('/', authenticate, checkBoardAccess, [
   body('boardId').isUUID().withMessage('ID board invalide'),
   body('title').trim().notEmpty().withMessage('Titre de la colonne requis'),
   body('type').notEmpty().withMessage('Type de colonne requis'),
@@ -37,19 +37,6 @@ router.post('/', authenticate, [
     }
 
     const { boardId, title, type, width, settings } = req.body;
-
-    // Check board access
-    const boardAccess = await db.query(
-      `SELECT b.*, wm.role as workspace_role
-       FROM boards b
-       JOIN workspace_members wm ON wm.workspace_id = b.workspace_id
-       WHERE b.id = $1 AND wm.user_id = $2`,
-      [boardId, req.userId]
-    );
-
-    if (boardAccess.rows.length === 0) {
-      return res.status(403).json({ error: 'Accès au board non autorisé' });
-    }
 
     // Get column type
     const typeResult = await db.query(
@@ -161,13 +148,48 @@ router.post('/', authenticate, [
   }
 });
 
+// Reorder columns (must be before /:columnId to avoid route conflict)
+router.put('/reorder', authenticate, checkBoardAccess, async (req, res) => {
+  try {
+    const { boardId, columns } = req.body;
+
+    const client = await db.getClient();
+    
+    try {
+      await client.query('BEGIN');
+
+      for (const col of columns) {
+        await client.query(
+          'UPDATE columns SET position = $1 WHERE id = $2 AND board_id = $3',
+          [col.position, col.id, boardId]
+        );
+      }
+
+      await client.query('COMMIT');
+
+      const io = req.app.get('io');
+      io.to(`board:${boardId}`).emit('columns:reordered', { columns });
+
+      res.json({ message: 'Colonnes réordonnées avec succès' });
+    } catch (err) {
+      await client.query('ROLLBACK');
+      throw err;
+    } finally {
+      client.release();
+    }
+  } catch (error) {
+    logger.error('Reorder columns error:', error);
+    res.status(500).json({ error: 'Erreur lors du réordonnancement des colonnes' });
+  }
+});
+
 // Update column
+// TODO: Refactorer pour utiliser checkBoardAccess — boardId non disponible dans req.params ni req.body ici
 router.put('/:columnId', authenticate, async (req, res) => {
   try {
     const { columnId } = req.params;
     const { title, width, settings, isVisible } = req.body;
 
-    // Check access
     const columnResult = await db.query(
       `SELECT c.*, b.workspace_id, ct.name as type_name, ct.component
        FROM columns c
@@ -246,11 +268,11 @@ router.put('/:columnId', authenticate, async (req, res) => {
 });
 
 // Delete column
+// TODO: Refactorer pour utiliser checkBoardAccess — boardId non disponible dans req.params ni req.body ici
 router.delete('/:columnId', authenticate, async (req, res) => {
   try {
     const { columnId } = req.params;
 
-    // Check access
     const columnResult = await db.query(
       `SELECT c.*, b.workspace_id
        FROM columns c
@@ -282,56 +304,8 @@ router.delete('/:columnId', authenticate, async (req, res) => {
   }
 });
 
-// Reorder columns
-router.put('/reorder', authenticate, async (req, res) => {
-  try {
-    const { boardId, columns } = req.body; // Array of { id, position }
-
-    // Check access
-    const boardAccess = await db.query(
-      `SELECT b.id
-       FROM boards b
-       JOIN workspace_members wm ON wm.workspace_id = b.workspace_id
-       WHERE b.id = $1 AND wm.user_id = $2`,
-      [boardId, req.userId]
-    );
-
-    if (boardAccess.rows.length === 0) {
-      return res.status(403).json({ error: 'Accès au board non autorisé' });
-    }
-
-    const client = await db.getClient();
-    
-    try {
-      await client.query('BEGIN');
-
-      for (const col of columns) {
-        await client.query(
-          'UPDATE columns SET position = $1 WHERE id = $2 AND board_id = $3',
-          [col.position, col.id, boardId]
-        );
-      }
-
-      await client.query('COMMIT');
-
-      // Emit socket event
-      const io = req.app.get('io');
-      io.to(`board:${boardId}`).emit('columns:reordered', { columns });
-
-      res.json({ message: 'Colonnes réordonnées avec succès' });
-    } catch (err) {
-      await client.query('ROLLBACK');
-      throw err;
-    } finally {
-      client.release();
-    }
-  } catch (error) {
-    logger.error('Reorder columns error:', error);
-    res.status(500).json({ error: 'Erreur lors du réordonnancement des colonnes' });
-  }
-});
-
 // Add status label
+// TODO: Refactorer pour utiliser checkBoardAccess — boardId non disponible dans req.params ni req.body ici
 router.post('/:columnId/labels', authenticate, [
   body('label').trim().notEmpty().withMessage('Label requis'),
   body('color').matches(/^#[0-9a-fA-F]{6}$/).withMessage('Couleur invalide'),
@@ -402,6 +376,7 @@ router.post('/:columnId/labels', authenticate, [
 });
 
 // Update status label
+// TODO: Refactorer pour utiliser checkBoardAccess — boardId non disponible dans req.params ni req.body ici
 router.put('/:columnId/labels/:labelId', authenticate, async (req, res) => {
   try {
     const { columnId, labelId } = req.params;
@@ -476,6 +451,7 @@ router.put('/:columnId/labels/:labelId', authenticate, async (req, res) => {
 });
 
 // Delete status label
+// TODO: Refactorer pour utiliser checkBoardAccess — boardId non disponible dans req.params ni req.body ici
 router.delete('/:columnId/labels/:labelId', authenticate, async (req, res) => {
   try {
     const { columnId, labelId } = req.params;

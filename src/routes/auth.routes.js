@@ -62,12 +62,16 @@ router.post('/register', registerValidation, async (req, res) => {
     // Hash password
     const passwordHash = await bcrypt.hash(password, 10);
 
+    // First user gets admin role
+    const userCount = await db.query('SELECT COUNT(*) FROM users');
+    const assignedRole = parseInt(userCount.rows[0].count) === 0 ? 'admin' : 'user';
+
     // Create user
     const result = await db.query(
-      `INSERT INTO users (email, password_hash, first_name, last_name)
-       VALUES ($1, $2, $3, $4)
+      `INSERT INTO users (email, password_hash, first_name, last_name, role)
+       VALUES ($1, $2, $3, $4, $5)
        RETURNING id, email, first_name, last_name, role, created_at`,
-      [email, passwordHash, firstName, lastName]
+      [email, passwordHash, firstName, lastName, assignedRole]
     );
 
     const user = result.rows[0];

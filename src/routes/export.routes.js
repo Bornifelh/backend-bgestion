@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const db = require('../database/db');
-const { authenticate } = require('../middleware/auth.middleware');
+const { authenticate, checkWorkspaceAccess, checkBoardAccess } = require('../middleware/auth.middleware');
 const logger = require('../utils/logger');
 
 // Export board data as JSON (for CSV/Excel conversion on frontend)
-router.get('/board/:boardId', authenticate, async (req, res) => {
+router.get('/board/:boardId', authenticate, checkBoardAccess, async (req, res) => {
   try {
     const { boardId } = req.params;
     const { format = 'json' } = req.query;
@@ -155,7 +155,7 @@ router.get('/board/:boardId', authenticate, async (req, res) => {
 });
 
 // Export workspace data
-router.get('/workspace/:workspaceId', authenticate, async (req, res) => {
+router.get('/workspace/:workspaceId', authenticate, checkWorkspaceAccess, async (req, res) => {
   try {
     const { workspaceId } = req.params;
 

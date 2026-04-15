@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const db = require('../database/db');
-const { authenticate } = require('../middleware/auth.middleware');
+const { authenticate, checkWorkspaceAccess } = require('../middleware/auth.middleware');
 const logger = require('../utils/logger');
 
 // Get my widgets for a workspace
-router.get('/workspace/:workspaceId', authenticate, async (req, res) => {
+router.get('/workspace/:workspaceId', authenticate, checkWorkspaceAccess, async (req, res) => {
   try {
     const { rows } = await db.query(
       `SELECT * FROM dashboard_widgets 
@@ -21,7 +21,7 @@ router.get('/workspace/:workspaceId', authenticate, async (req, res) => {
 });
 
 // Get dashboard data for a workspace (aggregated stats)
-router.get('/workspace/:workspaceId/data', authenticate, async (req, res) => {
+router.get('/workspace/:workspaceId/data', authenticate, checkWorkspaceAccess, async (req, res) => {
   try {
     const wsId = req.params.workspaceId;
 

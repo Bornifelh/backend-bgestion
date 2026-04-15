@@ -135,7 +135,8 @@ router.post(
         const defaultColumns = [
           { title: "Statut", type_id: columnTypes.status, position: 0 },
           { title: "Responsable", type_id: columnTypes.person, position: 1 },
-          { title: "Date limite", type_id: columnTypes.date, position: 2 },
+          { title: "Date de debut", type_id: columnTypes.date, position: 2 },
+          { title: "Date limite", type_id: columnTypes.date, position: 3 },
         ];
 
         const columnIds = [];
@@ -324,6 +325,7 @@ router.get("/:boardId", authenticate, checkBoardAccess, async (req, res) => {
       icon: board.icon,
       color: board.color,
       isPrivate: board.is_private,
+      config: board.config || {},
       ownerId: board.owner_id,
       ownerName: board.owner_first_name
         ? `${board.owner_first_name} ${board.owner_last_name}`
@@ -367,7 +369,7 @@ router.get("/:boardId", authenticate, checkBoardAccess, async (req, res) => {
 router.put("/:boardId", authenticate, checkBoardAccess, async (req, res) => {
   try {
     const { boardId } = req.params;
-    const { name, description, icon, color, isPrivate } = req.body;
+    const { name, description, icon, color, isPrivate, config } = req.body;
 
     const updates = [];
     const values = [];
@@ -392,6 +394,10 @@ router.put("/:boardId", authenticate, checkBoardAccess, async (req, res) => {
     if (isPrivate !== undefined) {
       updates.push(`is_private = $${paramCount++}`);
       values.push(isPrivate);
+    }
+    if (config !== undefined) {
+      updates.push(`config = $${paramCount++}`);
+      values.push(JSON.stringify(config));
     }
 
     if (updates.length === 0) {
@@ -426,6 +432,7 @@ router.put("/:boardId", authenticate, checkBoardAccess, async (req, res) => {
       icon: board.icon,
       color: board.color,
       isPrivate: board.is_private,
+      config: board.config || {},
     });
   } catch (error) {
     logger.error("Update board error:", error);

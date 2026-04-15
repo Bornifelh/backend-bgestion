@@ -1,4 +1,5 @@
-require('dotenv').config({ path: '../../.env' });
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '../../../.env') });
 const db = require('./db');
 const logger = require('../utils/logger');
 
@@ -65,9 +66,18 @@ CREATE TABLE IF NOT EXISTS boards (
   is_private BOOLEAN DEFAULT false,
   owner_id UUID REFERENCES users(id),
   position INTEGER DEFAULT 0,
+  config JSONB DEFAULT '{}',
   created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
+
+-- Add config column if not exists
+DO $$
+BEGIN
+  IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'boards' AND column_name = 'config') THEN
+    ALTER TABLE boards ADD COLUMN config JSONB DEFAULT '{}';
+  END IF;
+END $$;
 
 -- Column types table
 CREATE TABLE IF NOT EXISTS column_types (
@@ -1064,12 +1074,90 @@ INSERT INTO permissions (code, name, description, category) VALUES
   ('admin.view_audit', 'Voir l''audit', 'Permet de voir les logs d''audit', 'admin'),
   ('admin.manage_all', 'Administration complète', 'Accès complet d''administration', 'admin')
 ON CONFLICT (code) DO NOTHING;
+
+-- ========================================
+-- IT Asset Management tables
+-- ========================================
+
+CREATE TABLE IF NOT EXISTS it_assets (
+  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  name VARCHAR(255) NOT NULL,
+  serial VARCHAR(255) NOT NULL,
+  category VARCHAR(50) NOT NULL DEFAULT 'computers',
+  status VARCHAR(50) NOT NULL DEFAULT 'in_stock',
+  brand VARCHAR(255) DEFAULT '',
+  model VARCHAR(255) DEFAULT '',
+  location VARCHAR(255) DEFAULT '',
+  assignee VARCHAR(255) DEFAULT '',
+  purchase_date DATE,
+  warranty DATE,
+  value NUMERIC(15, 2) DEFAULT 0,
+  created_by UUID REFERENCES users(id) ON DELETE SET NULL,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS it_maintenance (
+  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  asset_id UUID REFERENCES it_assets(id) ON DELETE CASCADE,
+  asset_name VARCHAR(255) NOT NULL,
+  type VARCHAR(50) NOT NULL DEFAULT 'preventive',
+  step VARCHAR(50) NOT NULL DEFAULT 'attribution',
+  description TEXT NOT NULL,
+  assigned_to UUID REFERENCES users(id) ON DELETE SET NULL,
+  workspace_id UUID REFERENCES workspaces(id) ON DELETE SET NULL,
+  board_id UUID,
+  linked_item_id UUID,
+  scheduled_date DATE,
+  completed_date DATE,
+  cost NUMERIC(15, 2) DEFAULT 0,
+  notes TEXT DEFAULT '',
+  created_by UUID REFERENCES users(id) ON DELETE SET NULL,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
 `;
+
+async function addStartDateToExistingBoards() {
+  try {
+    const dateType = await db.query("SELECT id FROM column_types WHERE name = 'date' LIMIT 1");
+    if (!dateType.rows.length) return;
+    const dateTypeId = dateType.rows[0].id;
+
+    const boards = await db.query('SELECT id FROM boards');
+    for (const board of boards.rows) {
+      const existing = await db.query(
+        "SELECT id FROM columns WHERE board_id = $1 AND title = 'Date de debut'",
+        [board.id]
+      );
+      if (existing.rows.length === 0) {
+        const dueDateCol = await db.query(
+          "SELECT position FROM columns WHERE board_id = $1 AND title = 'Date limite' LIMIT 1",
+          [board.id]
+        );
+        const pos = dueDateCol.rows.length ? dueDateCol.rows[0].position : 2;
+
+        await db.query(
+          'UPDATE columns SET position = position + 1 WHERE board_id = $1 AND position >= $2',
+          [board.id, pos]
+        );
+        await db.query(
+          'INSERT INTO columns (board_id, column_type_id, title, position) VALUES ($1, $2, $3, $4)',
+          [board.id, dateTypeId, 'Date de debut', pos]
+        );
+      }
+    }
+    logger.info('✅ Start date column added to existing boards');
+  } catch (error) {
+    logger.error('Start date migration warning:', error.message);
+  }
+}
 
 async function runMigrations() {
   try {
     logger.info('Starting database migrations...');
     await db.query(migrations);
+    await addStartDateToExistingBoards();
     logger.info('✅ Migrations completed successfully');
     process.exit(0);
   } catch (error) {

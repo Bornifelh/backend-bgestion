@@ -3785,3 +3785,2184 @@
 2026-02-26 05:05:38 [INFO]: 📡 Socket.IO ready for connections
 2026-02-26 05:05:38 [INFO]: 🔒 CORS origins: ["http://localhost:5173","http://localhost:3000"]
 2026-02-26 05:05:38 [INFO]: Connected to Redis
+2026-04-15 08:22:30 [INFO]: 🚀 Server running on 0.0.0.0:3000
+2026-04-15 08:22:30 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 08:22:30 [INFO]: 🔒 CORS origins: ["http://localhost:5173","http://localhost:3000"]
+2026-04-15 08:22:30 [INFO]: Connected to Redis
+2026-04-15 07:26:11 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:26:11 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:26:11 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:26:11 [INFO]: Connected to Redis
+2026-04-15 07:26:22 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:26:25 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:26:25 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:26:25 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:26:25 [INFO]: Connected to Redis
+2026-04-15 07:26:30 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:26:30 [INFO]: User logged in: moupepidi@gmail.com
+2026-04-15 07:26:30 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:26:30 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:26:30 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:26:31 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:26:31 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:26:31 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:26:37 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:26:37 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:26:37 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:26:37 [INFO]: Connected to Redis
+2026-04-15 07:26:37 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:26:38 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:26:38 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:26:38 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:28:33 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:28:44 [INFO]: User logged in: moupepidi@gmail.com
+2026-04-15 07:28:44 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:28:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:28:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:28:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:28:44 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:28:44 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:28:49 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 07:46:11 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:46:11 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:46:12 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:46:12 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:46:13 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:46:13 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:46:13 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:46:13 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:46:13 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:46:13 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:46:13 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:46:13 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:46:13 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:46:13 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:46:13 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:46:13 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:46:13 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:46:13 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:46:14 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 07:51:35 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:51:35 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:17 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:17 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:17 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:17 [INFO]: Connected to Redis
+2026-04-15 07:52:17 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:17 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:18 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:18 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:18 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:18 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:18 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:18 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:22 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:22 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:22 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:22 [INFO]: Connected to Redis
+2026-04-15 07:52:22 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:22 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:22 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:22 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:23 [INFO]: Connected to Redis
+2026-04-15 07:52:23 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:23 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:23 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:23 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:23 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:24 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:24 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:24 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:24 [INFO]: Connected to Redis
+2026-04-15 07:52:24 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:24 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:24 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:24 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:25 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:25 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:25 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:29 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:29 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:29 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:29 [INFO]: Connected to Redis
+2026-04-15 07:52:30 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:30 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:30 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:30 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:30 [INFO]: Connected to Redis
+2026-04-15 07:52:31 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:31 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:32 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:32 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:32 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:32 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:32 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:36 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:36 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:36 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:36 [INFO]: Connected to Redis
+2026-04-15 07:52:37 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:37 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:37 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:37 [INFO]: Connected to Redis
+2026-04-15 07:52:38 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:38 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:38 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:38 [INFO]: Connected to Redis
+2026-04-15 07:52:38 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:38 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:39 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:39 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:39 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:39 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:39 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:39 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:41 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:41 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:41 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:41 [INFO]: Connected to Redis
+2026-04-15 07:52:41 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:42 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:42 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:42 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:42 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:42 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:42 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:42 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:44 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:44 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:44 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:44 [INFO]: Connected to Redis
+2026-04-15 07:52:44 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:44 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:45 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:45 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:45 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:45 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:45 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:45 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:47 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:47 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:47 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:47 [INFO]: Connected to Redis
+2026-04-15 07:52:47 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:47 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:47 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:47 [INFO]: Connected to Redis
+2026-04-15 07:52:48 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:49 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:49 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:49 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:49 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:49 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:49 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:53 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:53 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:53 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:53 [INFO]: Connected to Redis
+2026-04-15 07:52:53 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:54 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:54 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:54 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:54 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:55 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:55 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:55 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:55 [INFO]: Connected to Redis
+2026-04-15 07:52:55 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:55 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:55 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:56 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:56 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:56 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:56 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:56 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:57 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:52:57 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:52:57 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:52:57 [INFO]: Connected to Redis
+2026-04-15 07:52:58 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:58 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:52:58 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:58 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:58 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:58 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:52:59 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:52:59 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:03 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:53:03 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:53:03 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:53:03 [INFO]: Connected to Redis
+2026-04-15 07:53:04 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:04 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:04 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:04 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:04 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:04 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:04 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:04 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:06 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:53:06 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:53:06 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:53:06 [INFO]: Connected to Redis
+2026-04-15 07:53:07 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:07 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:07 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:07 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:07 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:07 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:07 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:07 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:09 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:53:09 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:53:09 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:53:09 [INFO]: Connected to Redis
+2026-04-15 07:53:09 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:10 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:10 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:10 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:10 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:10 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:10 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:10 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:23 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:53:23 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:53:23 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:53:23 [INFO]: Connected to Redis
+2026-04-15 07:53:24 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:24 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:24 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:24 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:25 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:25 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:25 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:25 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:31 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:53:31 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:53:31 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:53:31 [INFO]: Connected to Redis
+2026-04-15 07:53:32 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:32 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:32 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:32 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:32 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:32 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:32 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:32 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:37 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:53:37 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:53:37 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:53:37 [INFO]: Connected to Redis
+2026-04-15 07:53:37 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:38 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:38 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:38 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:38 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:38 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:38 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:44 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:53:44 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:53:44 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:53:44 [INFO]: Connected to Redis
+2026-04-15 07:53:44 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:44 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:44 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:44 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:45 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:45 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:45 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:49 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:53:49 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:53:49 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:53:49 [INFO]: Connected to Redis
+2026-04-15 07:53:49 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:49 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:49 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:50 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:50 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:50 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:50 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:50 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:54 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:53:54 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:53:54 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:53:54 [INFO]: Connected to Redis
+2026-04-15 07:53:54 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:55 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:55 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:55 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:55 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:55 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:55 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:55 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:58 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:53:58 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:53:58 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:53:58 [INFO]: Connected to Redis
+2026-04-15 07:53:59 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:59 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:53:59 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:53:59 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:59 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:53:59 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:00 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:00 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:05 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:54:05 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:54:05 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:54:05 [INFO]: Connected to Redis
+2026-04-15 07:54:05 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:54:05 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:54:05 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:06 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:06 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:06 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:06 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:06 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:11 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:54:11 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:54:11 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:54:11 [INFO]: Connected to Redis
+2026-04-15 07:54:11 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:54:11 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:54:12 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:12 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:54:12 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:54:12 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:54:12 [INFO]: Connected to Redis
+2026-04-15 07:54:13 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:54:13 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:54:13 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:13 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:13 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:13 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:14 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:14 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:25 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:54:25 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:54:25 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:54:25 [INFO]: Connected to Redis
+2026-04-15 07:54:25 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:54:25 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:54:25 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:25 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:25 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:26 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:26 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:26 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:26 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:34 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 07:54:34 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 07:54:34 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 07:54:34 [INFO]: Connected to Redis
+2026-04-15 07:54:34 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:54:34 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:54:35 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:35 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:35 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:35 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:35 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:35 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:37 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:38 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:54:39 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:39 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:54:39 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:39 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:49 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:49 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:54:49 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:49 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:49 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 07:54:51 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:51 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:54:51 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:54:51 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:58:10 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:58:10 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:58:11 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:58:11 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:58:11 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:58:12 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:58:12 [INFO]: Socket auth attempt - token present: true
+2026-04-15 07:58:12 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:58:12 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:58:12 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:58:12 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:58:12 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:58:12 [INFO]: Connected to PostgreSQL database
+2026-04-15 07:58:12 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 07:58:12 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:01:31 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:01:46 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:01:46 [INFO]: User logged in: moupepidi@gmail.com
+2026-04-15 08:01:46 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:01:47 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:01:47 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:01:47 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:01:47 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:01:47 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:06 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:06 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:03:07 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:07 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:03:07 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:03:07 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:03:07 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:03:07 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:03:07 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:03:08 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:08 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:08 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:03:08 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:03:08 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:08 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:35 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:35 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:03:35 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:35 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:39 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:39 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:03:39 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:39 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:40 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:40 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:03:41 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:41 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:41 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 08:03:43 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 08:03:43 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 08:03:45 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:45 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:03:45 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:45 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:46 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:46 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:03:46 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:46 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:47 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:47 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:03:47 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:47 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:51 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:51 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:03:51 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:51 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:51 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:03:52 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:52 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:03:52 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:52 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:53 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:03:54 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:54 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:03:54 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:54 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:57 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:57 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:03:57 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:57 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:59 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:59 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:03:59 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:03:59 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:04:05 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:04:05 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:04:05 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:04:05 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:09:05 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:14:05 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:16:29 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:16:30 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:16:31 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:16:31 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:16:31 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:16:31 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:16:31 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:16:31 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:16:38 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:16:38 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:16:38 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:16:38 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:16:38 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 08:16:40 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:16:40 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:16:40 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:16:40 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:16:42 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 08:16:42 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 08:16:44 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:16:44 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:16:44 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:16:44 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:16:59 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:16:59 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:16:59 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:16:59 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:17:01 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:17:01 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:17:01 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:17:01 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:17:02 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:17:02 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:17:02 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:17:02 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:17:03 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:17:55 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:17:55 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:17:56 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:17:56 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:17:56 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:17:56 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:17:56 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:17:56 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:17:56 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:17:56 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:17:56 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:17:56 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:17:56 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:17:57 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:17:57 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:18:07 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:18:07 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:18:07 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:18:07 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:18:08 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:18:08 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:18:08 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:18:08 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:27:01 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:27:19 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:27:19 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:27:19 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:27:19 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:27:20 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:27:20 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:27:20 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:27:21 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:27:21 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:27:21 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:27:21 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:27:26 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:27:26 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:27:26 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:27:26 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:29:15 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 08:29:15 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:15 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:29:15 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:15 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:16 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:29:16 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:29:20 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:20 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:29:20 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:20 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:22 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 08:29:22 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 08:29:22 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 08:29:22 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 08:29:22 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 08:29:24 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:24 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:29:24 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:24 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:25 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:29:26 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:26 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:29:27 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:27 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:27 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:29:34 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:34 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:29:34 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:34 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:35 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:35 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:29:35 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:35 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:40 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:40 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:29:40 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:40 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:29:40 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:29:44 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 08:29:44 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 08:30:40 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:30:58 [INFO]: Socket auth attempt - token present: true
+2026-04-15 08:30:58 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:30:58 [INFO]: Connected to PostgreSQL database
+2026-04-15 08:30:58 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:30:58 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:45:07 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 08:45:07 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:06:11 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 09:06:11 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 09:06:11 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 09:06:11 [INFO]: Connected to Redis
+2026-04-15 09:06:38 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:06:39 [INFO]: User logged in: moupepidi@gmail.com
+2026-04-15 09:06:39 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:06:39 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:06:39 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:06:39 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:06:40 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:06:40 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:07:01 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:07:01 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:07:01 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:07:01 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:07:50 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:07:50 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:07:50 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:07:50 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:07:50 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:07:50 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:07:50 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:07:50 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:10:46 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:10:46 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:10:46 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:10:46 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:10:46 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:10:46 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:10:46 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:10:47 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:10:47 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:10:48 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:10:48 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:10:49 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:10:49 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:10:50 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:10:50 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:10:50 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:10:50 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:10:52 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:10:52 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:10:52 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:10:52 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:09 [INFO]: Board created: 4380fbe4-6b07-4091-9f2a-cb556ab07690 by user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:10 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:10 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:11:10 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:10 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:11 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4380fbe4-6b07-4091-9f2a-cb556ab07690
+2026-04-15 09:11:15 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 09:11:15 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 09:11:18 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:18 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:11:18 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:18 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:18 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:18 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:11:18 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:18 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:24 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:24 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:11:24 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:24 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:25 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:25 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:11:25 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:11:25 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:14:03 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 09:14:03 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 09:14:04 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:16:00 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:16:00 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 09:16:03 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:16:04 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:16:04 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:16:04 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:16:04 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:16:04 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:16:04 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 09:16:21 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:16:21 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:16:21 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:16:21 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:16:21 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:16:28 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 09:16:28 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 09:19:40 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:19:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:19:48 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 09:19:48 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 09:19:50 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:50 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:19:50 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:50 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:50 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:19:50 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:19:50 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:19:53 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:53 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:19:53 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:53 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:54 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:54 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:19:54 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:54 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:56 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:56 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:19:56 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:56 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:58 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:58 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:19:58 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:58 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:59 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:19:59 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:20:00 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:20:00 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:20:00 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:20:00 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:20:14 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:20:14 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:20:14 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:20:14 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:20:40 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:20:40 [INFO]: Socket auth attempt - token present: true
+2026-04-15 09:20:41 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:20:41 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 09:23:58 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:23:58 [INFO]: Connected to PostgreSQL database
+2026-04-15 09:25:18 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:26:12 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:26:13 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:26:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:26:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:26:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:26:14 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:26:14 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:26:22 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:26:22 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:26:22 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:26:22 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:26:37 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:26:37 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:26:38 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:26:38 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:26:40 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 10:26:43 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:26:44 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 10:26:53 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:26:53 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:26:53 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:26:53 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:27:17 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:27:34 [INFO]: User logged in: moupepidi@gmail.com
+2026-04-15 10:27:34 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:27:34 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:27:34 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:27:35 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:27:35 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:32:33 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:32:34 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:32:35 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:32:35 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:32:35 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:32:35 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:32:35 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:32:41 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:32:42 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:32:42 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:32:42 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:32:50 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:32:50 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:32:50 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:32:50 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:33:02 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:33:03 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:33:03 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:33:03 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:33:03 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:33:04 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:33:04 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:33:04 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:33:07 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:33:08 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:33:08 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:33:08 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:04 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:05 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:34:05 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:34:06 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:34:06 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:34:06 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:06 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:06 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:06 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:34:06 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:06 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:07 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:34:14 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:14 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:34:15 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:15 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:21 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:21 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:34:21 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:21 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:22 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:34:38 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:38 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:34:38 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:38 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:40 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:40 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:34:41 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:41 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:54 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:54 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:34:54 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:54 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:58 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:58 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:34:58 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:58 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:34:59 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:35:09 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:35:09 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:35:09 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:35:09 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:35:23 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:35:23 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:35:26 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:35:26 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:35:26 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:35:26 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:35:27 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:35:27 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:35:27 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:35:27 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:35:28 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:35:28 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:35:29 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:35:29 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:35:32 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:35:32 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:35:32 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:35:32 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:14 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:40:16 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:40:16 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:40:16 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:40:16 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:16 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:23 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:23 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:40:23 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:23 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:26 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:26 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:40:27 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:40:27 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:27 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:31 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:31 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:40:32 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:32 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:33 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:33 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:40:33 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:33 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:40:34 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:41:21 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:21 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:41:22 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:41:22 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:41:22 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:41:22 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:41:22 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:22 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:27 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:27 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:41:27 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:27 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:31 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:31 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:41:31 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:31 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:46 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:46 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:41:46 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:46 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:51 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:51 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:41:51 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:51 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:41:56 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:41:56 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:42:07 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:42:07 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:42:07 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:42:07 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:42:09 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:42:09 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:42:10 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:42:10 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:42:10 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:42:10 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:42:13 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:42:13 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:42:13 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:42:13 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:42:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:42:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:42:15 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:42:15 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:42:56 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:43:24 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:43:24 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:43:27 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:43:27 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:43:27 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:43:34 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:43:34 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:44:51 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:44:52 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 10:44:58 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:44:58 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:48:27 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:48:54 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:17 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:51:18 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:51:18 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:51:18 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:51:18 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:18 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:48 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:48 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:51:48 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:48 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:53 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:53 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:51:53 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:53 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:54 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:51:56 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:56 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:51:56 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:56 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:57 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:51:57 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:57 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:51:57 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:57 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:59 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:59 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:51:59 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:51:59 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:52:00 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:52:10 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:52:12 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:52:12 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:52:13 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:52:13 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:52:13 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:52:25 [WARN]: Activity log insert failed:
+2026-04-15 10:52:28 [WARN]: Activity log insert failed:
+2026-04-15 10:52:32 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:52:35 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:52:35 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:52:41 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 10:56:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:56:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:56:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:56:18 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:56:18 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:56:18 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:56:18 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:56:19 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:56:20 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:56:20 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:56:20 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:56:20 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:56:37 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:56:37 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:56:52 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:56:53 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:56:53 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:56:53 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:56:54 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:57:13 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:57:13 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:57:13 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:57:13 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:57:29 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:57:32 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:57:32 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:57:33 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:57:33 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:57:33 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:57:33 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:57:35 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:57:35 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:57:41 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:57:41 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 10:58:04 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:58:04 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 10:58:05 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:58:17 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 10:58:17 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 10:58:19 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:58:19 [INFO]: Socket auth attempt - token present: true
+2026-04-15 10:58:19 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:58:19 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 10:59:42 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:59:42 [INFO]: Connected to PostgreSQL database
+2026-04-15 10:59:42 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:02:41 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:41 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:02:42 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:02:42 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:02:42 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:02:42 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:02:42 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:42 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:43 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 11:02:43 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:43 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:02:43 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:43 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:43 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:02:46 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:46 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:02:46 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:46 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:48 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:48 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:02:48 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:48 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:51 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:52 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:02:52 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:52 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:53 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:53 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:02:53 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:53 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:54 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:54 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:02:54 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:54 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:02:55 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:03:05 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 11:03:10 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:03:10 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:03:10 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:03:10 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:03:10 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:03:23 [WARN]: Activity log insert failed:
+2026-04-15 11:03:24 [WARN]: Activity log insert failed:
+2026-04-15 11:03:36 [WARN]: Activity log insert failed:
+2026-04-15 11:03:36 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:03:36 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:03:37 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:03:37 [WARN]: Activity log insert failed:
+2026-04-15 11:03:37 [WARN]: Activity log insert failed:
+2026-04-15 11:04:13 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:04:13 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 11:04:13 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 11:04:17 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:04:30 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:04:30 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:05:16 [INFO]: Group 74a6b62c-6cfa-4266-aea2-dd559997f93b updated by user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:05:27 [INFO]: Group de465c3f-ce31-4481-9499-de64dbac1401 updated by user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:06:00 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 11:06:02 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:06:02 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:06:55 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:01 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 11:10:01 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 11:10:01 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 11:10:01 [INFO]: Connected to Redis
+2026-04-15 11:10:05 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:10:05 [INFO]: User logged in: moupepidi@gmail.com
+2026-04-15 11:10:06 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:10:06 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:10:06 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:10:07 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:07 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:07 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:10:20 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:20 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:10:20 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:20 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:21 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:10:21 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:10:28 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:28 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:10:28 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:28 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:29 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:29 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:10:29 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:29 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:30 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:30 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:10:30 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:30 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:31 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:31 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:10:31 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:31 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:32 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:32 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:10:32 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:32 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:37 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 11:10:52 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 11:10:58 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:58 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:10:59 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:59 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:10:59 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:11:21 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 11:11:21 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 11:11:23 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:11:23 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:12:04 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:12:10 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:13:18 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:13:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:15:37 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:15:45 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:16:23 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:16:23 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:16:24 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:16:24 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:16:24 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:16:24 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:16:24 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:16:25 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:17:07 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:17:54 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:18:01 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:22:46 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 11:22:46 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 11:22:46 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 11:22:46 [INFO]: Connected to Redis
+2026-04-15 11:22:48 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:22:48 [INFO]: User logged in: moupepidi@gmail.com
+2026-04-15 11:22:49 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:22:49 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:22:49 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:22:49 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:22:49 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:22:50 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:22:52 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:22:52 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:22:53 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:22:53 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:22:53 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:23:38 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:23:39 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 11:23:39 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:23:39 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:23:39 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:23:39 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:23:40 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:23:40 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:23:40 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:23:40 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:23:40 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:23:43 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 11:23:43 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 11:23:44 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:23:44 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:23:45 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:23:45 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:23:45 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:23:46 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:23:46 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:23:46 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:23:46 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:23:58 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:23:58 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:23:58 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:23:58 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:24:01 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:24:01 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:24:01 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:24:01 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:24:03 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:24:03 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:24:03 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:24:03 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:24:03 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:25:01 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:25:02 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:27:43 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:27:43 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:27:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:27:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:27:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:27:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:28:34 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:28:47 [WARN]: Activity log insert failed:
+2026-04-15 11:28:48 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:29:38 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:30:40 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 11:34:01 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:34:01 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:34:02 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:34:02 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:34:02 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:34:02 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:36:24 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:36:24 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 11:36:26 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 11:36:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:36:27 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:36:27 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:36:27 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:36:27 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:36:31 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 11:36:31 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 11:36:32 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:36:32 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:36:35 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 11:36:35 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 11:36:36 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:37:09 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:37:09 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:37:31 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 11:37:31 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 11:37:31 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 11:37:31 [INFO]: Connected to Redis
+2026-04-15 11:37:32 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:37:33 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:37:33 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:37:33 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:37:34 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:37:35 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:37:35 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:37:35 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:37:35 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:37:35 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:37:35 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:37:36 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:37:36 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:37:36 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:37:36 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:37:40 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:37:40 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:37:40 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:37:40 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:37:40 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:37:40 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:37:40 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:38:07 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:07 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:38:07 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:07 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:08 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:08 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:38:08 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:08 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:10 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:10 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:38:10 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:10 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:13 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:13 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:38:13 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:13 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:20 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 11:38:20 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 11:38:20 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 11:38:20 [INFO]: Connected to Redis
+2026-04-15 11:38:20 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:38:21 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:38:21 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:21 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:21 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:38:21 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:38:21 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:38:21 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:38:22 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:38:51 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 11:38:51 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 11:38:51 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 11:38:51 [INFO]: Connected to Redis
+2026-04-15 11:38:51 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:38:52 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:38:52 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 11:38:52 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 11:38:52 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 11:38:52 [INFO]: Connected to Redis
+2026-04-15 11:38:53 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:38:53 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:38:53 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:53 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:58 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:58 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:38:58 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:58 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:38:59 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:38:59 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:39:00 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 11:40:38 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:40:38 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 11:40:41 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:40:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:40:58 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:40:58 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:40:58 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:40:58 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:50:55 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:50:56 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:50:58 [INFO]: Socket auth attempt - token present: true
+2026-04-15 11:50:58 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:50:58 [INFO]: Connected to PostgreSQL database
+2026-04-15 11:50:58 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 11:50:58 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 13:18:49 [INFO]: Connected to PostgreSQL database
+2026-04-15 13:51:30 [ERROR]: Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-04-15 15:53:24 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 15:53:24 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 15:53:24 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 15:53:24 [INFO]: Connected to Redis
+2026-04-15 15:53:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 15:53:26 [INFO]: User logged in: moupepidi@gmail.com
+2026-04-15 15:53:26 [INFO]: Socket auth attempt - token present: true
+2026-04-15 15:53:27 [INFO]: Connected to PostgreSQL database
+2026-04-15 15:53:27 [INFO]: Connected to PostgreSQL database
+2026-04-15 15:53:27 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:53:27 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:53:30 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:53:30 [INFO]: Socket auth attempt - token present: true
+2026-04-15 15:53:30 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:53:30 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:53:31 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 15:53:36 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:53:36 [INFO]: Socket auth attempt - token present: true
+2026-04-15 15:53:36 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:53:36 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:53:37 [INFO]: Connected to PostgreSQL database
+2026-04-15 15:53:37 [INFO]: Connected to PostgreSQL database
+2026-04-15 15:53:37 [INFO]: Connected to PostgreSQL database
+2026-04-15 15:53:37 [INFO]: Connected to PostgreSQL database
+2026-04-15 15:53:40 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:53:40 [INFO]: Socket auth attempt - token present: true
+2026-04-15 15:53:41 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:53:41 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:54:07 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 15:54:07 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:54:07 [INFO]: Socket auth attempt - token present: true
+2026-04-15 15:54:07 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:54:07 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:54:12 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 15:54:12 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 15:54:24 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 15:54:24 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 15:54:29 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:54:29 [INFO]: Socket auth attempt - token present: true
+2026-04-15 15:54:29 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:54:29 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:54:29 [INFO]: Connected to PostgreSQL database
+2026-04-15 15:54:29 [INFO]: Connected to PostgreSQL database
+2026-04-15 15:54:30 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 15:54:30 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 15:54:51 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:54:52 [INFO]: Socket auth attempt - token present: true
+2026-04-15 15:54:52 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:54:52 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:54:52 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 15:54:53 [INFO]: Socket auth attempt - token present: true
+2026-04-15 15:54:53 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:54:53 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:54:53 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:15 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:15 [INFO]: Socket auth attempt - token present: true
+2026-04-15 15:55:15 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:15 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:21 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:21 [INFO]: Socket auth attempt - token present: true
+2026-04-15 15:55:21 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:21 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:22 [INFO]: Connected to PostgreSQL database
+2026-04-15 15:55:22 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:22 [INFO]: Socket auth attempt - token present: true
+2026-04-15 15:55:22 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:22 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:23 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:23 [INFO]: Socket auth attempt - token present: true
+2026-04-15 15:55:23 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:23 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:24 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:24 [INFO]: Socket auth attempt - token present: true
+2026-04-15 15:55:24 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:24 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:25 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:25 [INFO]: Socket auth attempt - token present: true
+2026-04-15 15:55:25 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:25 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 15:55:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 15:55:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 15:56:39 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 15:56:39 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 15:58:47 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:01:48 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:01:48 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:01:48 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:01:49 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:01:49 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:01:49 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:01:49 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:01:49 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:01:49 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:01:50 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:01:54 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:01:54 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:01:54 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:01:54 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:04:11 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:04:11 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:04:12 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:04:12 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:04:12 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:04:12 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:04:13 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:04:18 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 16:04:18 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:04:18 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:04:18 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:04:18 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:04:19 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:04:19 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:04:22 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:04:22 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:04:22 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:04:22 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:04:23 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:04:23 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:04:23 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:04:23 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:04:32 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:10:42 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:10:42 [INFO]: User logged in: moupepidi@gmail.com
+2026-04-15 16:10:42 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:10:43 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:10:43 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:10:43 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:10:43 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:10:43 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:10:50 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:10:50 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:10:51 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:10:51 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:12:30 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:13:01 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:13:02 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:13:10 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 16:13:10 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:13:10 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:13:10 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:13:10 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:13:12 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:13:12 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:13:12 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:13:12 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:14:01 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:14:01 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:14:02 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:14:02 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:14:02 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:14:02 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:14:02 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:15:47 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:15:48 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:15:49 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:15:49 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:15:49 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:15:49 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:15:49 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:17:42 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:17:57 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:17:57 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:17:57 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:17:58 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:17:58 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:18:27 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:18:31 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:18:32 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:18:32 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:18:32 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:18:33 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:18:33 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:18:33 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:18:33 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:18:34 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:18:34 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:18:35 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:18:35 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:18:35 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:18:35 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:18:37 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:18:39 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:18:39 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:18:39 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:22:22 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:22:23 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:22:24 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:22:24 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:22:24 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:22:24 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:22:24 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:28:31 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:31:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:33:00 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:33:01 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:33:01 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:33:02 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:33:02 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:33:02 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:33:02 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:36:57 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:37:08 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 16:37:08 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:08 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:37:08 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:37:08 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:37:09 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:09 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:10 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:10 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:37:10 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:10 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:10 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:37:10 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:37:15 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 16:37:16 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:16 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:37:17 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:17 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:17 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:37:24 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:24 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:37:24 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:24 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:33 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:33 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:37:33 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:33 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:41 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 16:37:41 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 16:37:46 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:47 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:37:47 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:47 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:58 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:58 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:37:58 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:37:58 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:38:19 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:38:19 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:38:19 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:38:19 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:38:20 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:38:20 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:38:20 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:38:20 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:38:20 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:39:52 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:39:53 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:39:53 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:39:53 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:39:53 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:39:54 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:39:54 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:39:56 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:39:56 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:39:56 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:39:56 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:39:57 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:44:52 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:44:52 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:44:53 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:44:54 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:44:54 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:44:54 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:44:54 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:44:54 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:44:55 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:44:58 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:44:58 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:44:58 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:44:58 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:45:06 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:45:06 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:45:07 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:45:07 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:45:09 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:45:09 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:45:22 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 16:45:22 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 16:45:24 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:45:24 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:45:24 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:45:24 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:45:25 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:45:25 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:45:25 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:45:25 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:45:39 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:45:39 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:45:41 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 16:45:44 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:45:44 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:45:45 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:45:45 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:46:11 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:46:11 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:46:25 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:46:25 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:46:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:46:26 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:46:26 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:47:15 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async checkWorkspaceAccess (/Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/middleware/auth.middleware.js:127:20)
+2026-04-15 16:47:16 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:47:17 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:47:17 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:47:17 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:47:17 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:47:18 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:47:19 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:47:19 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:47:21 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/routes/favorite.routes.js:10:22
+2026-04-15 16:47:21 [ERROR]: Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-04-15 16:47:38 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 16:47:38 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 16:47:38 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 16:47:38 [INFO]: Connected to Redis
+2026-04-15 16:47:51 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:47:51 [INFO]: User logged in: moupepidi@gmail.com
+2026-04-15 16:47:51 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:47:52 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:47:52 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:47:52 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:47:53 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/routes/activity.routes.js:90:30
+2026-04-15 16:47:55 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async checkWorkspaceAccess (/Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/middleware/auth.middleware.js:127:20)
+2026-04-15 16:48:24 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:48:24 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:48:24 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:48:24 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:48:26 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:48:26 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:48:26 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:48:26 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:48:26 [ERROR]: Error: timeout exceeded when trying to connect
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:569:9)
+    at process.processTimers (node:internal/timers:543:7)
+    at async /Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/routes/favorite.routes.js:10:22
+2026-04-15 16:48:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:48:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:48:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:48:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:48:29 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:48:29 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:48:29 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:48:29 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:48:42 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 16:48:42 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 16:48:45 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:48:45 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:48:45 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:48:45 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:48:47 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:49:09 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 16:49:09 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 16:49:22 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 16:49:46 [INFO]: Board created: 4c91f5b1-3cc3-450e-92b3-19d105651999 by user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:49:47 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 16:49:47 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 16:49:47 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 16:49:47 [INFO]: Connected to Redis
+2026-04-15 16:49:48 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:49:50 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Array.authenticateSocket (/Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/middleware/auth.middleware.js:76:20)
+2026-04-15 16:49:50 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async checkBoardAccess (/Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/middleware/auth.middleware.js:153:20)
+2026-04-15 16:50:02 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:50:03 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:50:03 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:50:03 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:50:03 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:50:03 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:03 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:04 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 16:50:04 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:04 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:50:04 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:04 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:05 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:05 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:50:05 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:05 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:06 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 16:50:27 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 16:50:27 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 16:50:27 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 16:50:27 [INFO]: Connected to Redis
+2026-04-15 16:50:28 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:50:28 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:50:29 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:29 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:33 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 16:50:33 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 16:50:33 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 16:50:33 [INFO]: Connected to Redis
+2026-04-15 16:50:33 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:50:34 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:50:34 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:34 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:41 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 16:50:41 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 16:50:41 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 16:50:41 [INFO]: Connected to Redis
+2026-04-15 16:50:41 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:50:41 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:50:41 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:41 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:56 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:56 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:50:56 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:56 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:50:57 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:50:57 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:50:59 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:51:00 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:51:00 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:51:00 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:51:07 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:51:59 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:51:59 [INFO]: User logged in: moupepidi@gmail.com
+2026-04-15 16:52:00 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:52:00 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:52:00 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:52:00 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:52:01 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:52:04 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:52:04 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:52:04 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:52:04 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:52:05 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 16:52:44 [INFO]: Starting database migrations...
+2026-04-15 16:52:45 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:52:46 [INFO]: ✅ Migrations completed successfully
+2026-04-15 16:53:13 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:54:19 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:54:30 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:54:30 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:54:30 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:54:30 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:54:30 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:54:30 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:54:30 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:54:30 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:54:36 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:54:37 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:54:37 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:54:37 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:54:42 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:54:42 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:54:42 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:54:42 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:54:46 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:54:46 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:54:46 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:54:46 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:54:47 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:54:47 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:55:00 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:00 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:55:00 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:00 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:01 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 17:55:11 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:55:41 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 16:55:41 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 16:55:43 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:43 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:55:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:55:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:55:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:55:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:55:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:55:44 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:44 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:44 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:44 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:55:44 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:44 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:55:45 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:45 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:55:45 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:45 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:46 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:46 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:55:46 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:46 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:59 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:59 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:55:59 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:55:59 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:56:17 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:56:18 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:56:22 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 16:56:22 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 16:56:22 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:56:23 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:57:08 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:57:08 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:57:09 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:57:09 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:57:09 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:57:09 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:57:10 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:57:11 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:57:11 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 16:58:09 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:58:23 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 16:58:24 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:58:24 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:58:24 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:58:54 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:58:55 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:58:55 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:58:55 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:58:55 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:58:55 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:59:42 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:59:42 [INFO]: Socket auth attempt - token present: true
+2026-04-15 16:59:43 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:59:43 [INFO]: Connected to PostgreSQL database
+2026-04-15 16:59:43 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 16:59:43 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:05:27 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 17:05:27 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 17:05:27 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 17:05:27 [INFO]: Connected to Redis
+2026-04-15 17:06:30 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:06:31 [INFO]: User logged in: moupepidi@gmail.com
+2026-04-15 17:06:31 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:06:31 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:06:31 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:06:32 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:06:32 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:06:32 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:06:36 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:06:36 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:06:36 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:06:36 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:06:38 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:06:38 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:06:39 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:06:39 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:06:39 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:06:41 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:06:41 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:06:41 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:06:41 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:10:30 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 17:10:30 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 17:10:30 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 17:10:30 [INFO]: Connected to Redis
+2026-04-15 17:10:31 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:10:31 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:10:31 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:10:31 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:10:49 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:15:03 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:15:11 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 17:15:11 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 17:15:11 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 17:15:11 [INFO]: Connected to Redis
+2026-04-15 17:15:18 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:15:19 [INFO]: User logged in: moupepidi@gmail.com
+2026-04-15 17:15:19 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:15:20 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:15:20 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:15:20 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:15:20 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:15:20 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:15:27 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:15:27 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:15:27 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:15:27 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:15:34 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:15:34 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:15:34 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:15:34 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:15:35 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 17:15:44 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:15:44 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:15:44 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:15:44 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:16:21 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:16:42 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 17:16:42 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 17:16:43 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:18:01 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:19:24 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:19:33 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:20:07 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:20:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:21:00 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 17:21:14 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 17:21:14 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 17:21:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:21:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:21:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:21:26 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:21:26 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:21:26 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:21:26 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:21:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:21:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:21:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:21:32 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 17:21:32 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 17:21:37 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 17:21:37 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 17:21:39 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 17:21:39 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 17:22:42 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 17:22:44 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:22:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:22:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:23:22 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:23:23 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:25:35 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:26:50 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:26:51 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:27:53 [WARN]: Activity log insert failed:
+2026-04-15 17:27:53 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:27:54 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:27:54 [WARN]: Activity log insert failed:
+2026-04-15 17:28:01 [WARN]: Activity log insert failed:
+2026-04-15 17:28:01 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:28:22 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:30:02 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:30:08 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:30:08 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:30:08 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:30:08 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:30:08 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:30:08 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:30:08 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:30:08 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:30:08 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:30:18 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 17:30:18 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 17:30:18 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 17:30:18 [INFO]: Connected to Redis
+2026-04-15 17:30:19 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:30:19 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:30:19 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:30:19 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:30:36 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 17:30:36 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 17:30:36 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 17:30:36 [INFO]: Connected to Redis
+2026-04-15 17:30:37 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:30:37 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:30:37 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:30:37 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:30:42 [INFO]: Starting database migrations...
+2026-04-15 17:30:43 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:30:45 [INFO]: ✅ Start date column added to existing boards
+2026-04-15 17:32:34 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:32:35 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:32:35 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:32:36 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:32:36 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:32:36 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:32:36 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:32:36 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:32:36 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:34:22 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:34:23 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:34:24 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 17:34:24 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:34:24 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:34:24 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:34:24 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:34:24 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:34:44 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:34:44 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:34:44 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:34:44 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:34:45 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 17:34:53 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 17:34:53 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 17:34:56 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 17:34:58 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:35:19 [WARN]: Activity log insert failed:
+2026-04-15 17:35:19 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:37:21 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:37:29 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:39:15 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:39:40 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 17:39:40 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 17:39:40 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 17:39:40 [INFO]: Connected to Redis
+2026-04-15 17:39:41 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:39:42 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:39:42 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:39:42 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:39:51 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 17:39:51 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 17:39:51 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 17:39:51 [INFO]: Connected to Redis
+2026-04-15 17:39:51 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:39:52 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:39:52 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:39:52 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:40:37 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 17:40:37 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 17:40:37 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 17:40:37 [INFO]: Connected to Redis
+2026-04-15 17:40:38 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:40:39 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:40:39 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:40:39 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:40:50 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 17:40:50 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 17:40:50 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 17:40:50 [INFO]: Connected to Redis
+2026-04-15 17:40:51 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:40:52 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:40:52 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:40:52 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:45:56 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:46:42 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 17:47:28 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:47:28 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:47:29 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:47:29 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:47:29 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:47:29 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:47:29 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:47:30 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:47:30 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:47:30 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:47:32 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 17:47:32 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 17:47:34 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:47:34 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:47:34 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:47:34 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:47:34 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:47:44 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 12d1b9e6-c663-40c6-931f-8b0fc7bd3c3b
+2026-04-15 17:48:03 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:48:03 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:48:03 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:48:03 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:49:08 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 17:49:08 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined workspace 3168fd0d-b18a-4750-a295-61066fdfd620
+2026-04-15 17:49:09 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:49:10 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board d98aa1ab-8207-405e-a270-515edc516bbf
+2026-04-15 17:49:11 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:49:11 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:49:11 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:49:22 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:49:23 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:49:23 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:49:59 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:49:59 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:50:08 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:50:08 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:53:59 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:54:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:54:14 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:54:53 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:54:53 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:54:53 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:54:53 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:55:11 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:55:11 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:55:11 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:55:11 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:55:11 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:55:11 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:55:11 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:55:11 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:55:19 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:55:19 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:55:19 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:55:19 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:55:19 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:55:19 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:55:52 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:55:52 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:55:53 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:55:53 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:56:11 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:56:11 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:56:11 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:56:11 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:56:11 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:56:11 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:56:12 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:56:12 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:58:25 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 17:58:25 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 17:58:25 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 17:58:25 [INFO]: Connected to Redis
+2026-04-15 17:58:25 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:58:26 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:58:26 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:58:26 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:58:26 [INFO]: User 2d3804fd-d595-4c38-96e5-843a15e445fd joined board 4c91f5b1-3cc3-450e-92b3-19d105651999
+2026-04-15 17:58:34 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-15 17:58:34 [INFO]: 📡 Socket.IO ready for connections
+2026-04-15 17:58:34 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-15 17:58:34 [INFO]: Connected to Redis
+2026-04-15 17:58:35 [INFO]: Socket auth attempt - token present: true
+2026-04-15 17:58:36 [INFO]: Connected to PostgreSQL database
+2026-04-15 17:58:36 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:58:36 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 17:59:59 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd (transport close)
+2026-04-15 18:00:00 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:00:00 [INFO]: Socket auth attempt - token present: true
+2026-04-15 18:00:00 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:00:00 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:00:01 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 18:00:01 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
+2026-04-15 18:00:43 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:00:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:00:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:00:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:00:44 [INFO]: Connected to PostgreSQL database
+2026-04-15 18:00:45 [INFO]: Connected to PostgreSQL database

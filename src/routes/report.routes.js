@@ -1,13 +1,14 @@
 const express = require("express");
 const router = express.Router();
 const db = require("../database/db");
-const { authenticate } = require("../middleware/auth.middleware");
+const { authenticate, checkWorkspaceAccess } = require("../middleware/auth.middleware");
 const logger = require("../utils/logger");
 
 // Workload report by member
 router.get(
   "/workspace/:workspaceId/workload",
   authenticate,
+  checkWorkspaceAccess,
   async (req, res) => {
     try {
       const wsId = req.params.workspaceId;
@@ -80,6 +81,7 @@ router.get(
 router.get(
   "/workspace/:workspaceId/deadlines",
   authenticate,
+  checkWorkspaceAccess,
   async (req, res) => {
     try {
       const wsId = req.params.workspaceId;
@@ -131,6 +133,7 @@ router.get(
 router.get(
   "/workspace/:workspaceId/activity-summary",
   authenticate,
+  checkWorkspaceAccess,
   async (req, res) => {
     try {
       const { startDate, endDate } = req.query;
