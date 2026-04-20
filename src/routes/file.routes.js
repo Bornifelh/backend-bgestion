@@ -4,6 +4,7 @@ const path = require('path');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 const { authenticate } = require('../middleware/auth.middleware');
+const db = require('../database/db');
 const logger = require('../utils/logger');
 
 const router = express.Router();
@@ -70,6 +71,34 @@ const upload = multer({
   }
 });
 
+// Get attachments for an item
+router.get('/item/:itemId', authenticate, async (req, res) => {
+  try {
+    const { rows } = await db.query(
+      `SELECT a.*, u.first_name, u.last_name
+       FROM attachments a
+       LEFT JOIN users u ON u.id = a.user_id
+       WHERE a.item_id = $1
+       ORDER BY a.created_at DESC`,
+      [req.params.itemId]
+    );
+    res.json(rows.map(r => ({
+      id: r.id,
+      itemId: r.item_id,
+      fileName: r.file_name,
+      fileUrl: r.file_url,
+      fileSize: r.file_size,
+      fileType: r.file_type,
+      firstName: r.first_name,
+      lastName: r.last_name,
+      createdAt: r.created_at,
+    })));
+  } catch (error) {
+    logger.error('Get attachments error:', error);
+    res.status(500).json({ error: 'Erreur lors de la récupération des fichiers' });
+  }
+});
+
 // Upload single file
 router.post('/upload', authenticate, upload.single('file'), async (req, res) => {
   try {
@@ -77,29 +106,43 @@ router.post('/upload', authenticate, upload.single('file'), async (req, res) => 
       return res.status(400).json({ error: 'Aucun fichier fourni' });
     }
 
-    const { itemId, columnId } = req.body;
-
-    // Build the public URL for the file
+    const { itemId } = req.body;
     const baseUrl = process.env.API_URL || `${req.protocol}://${req.get('host')}`;
     const fileUrl = `${baseUrl}/uploads/${req.file.filename}`;
 
-    const fileData = {
-      id: `file-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
-      name: req.file.originalname,
-      storedName: req.file.filename,
-      size: req.file.size,
-      type: req.file.mimetype,
-      url: fileUrl,
-      uploadedAt: new Date().toISOString(),
-      uploadedBy: req.user.id
-    };
+    let fileData;
+
+    if (itemId) {
+      const result = await db.query(
+        `INSERT INTO attachments (item_id, user_id, file_name, file_url, file_size, file_type)
+         VALUES ($1, $2, $3, $4, $5, $6)
+         RETURNING *`,
+        [itemId, req.userId, req.file.originalname, fileUrl, req.file.size, req.file.mimetype]
+      );
+      const r = result.rows[0];
+      fileData = {
+        id: r.id,
+        itemId: r.item_id,
+        fileName: r.file_name,
+        fileUrl: r.file_url,
+        fileSize: r.file_size,
+        fileType: r.file_type,
+        createdAt: r.created_at,
+      };
+    } else {
+      fileData = {
+        id: uuidv4(),
+        fileName: req.file.originalname,
+        storedName: req.file.filename,
+        fileSize: req.file.size,
+        fileType: req.file.mimetype,
+        fileUrl: fileUrl,
+        createdAt: new Date().toISOString(),
+      };
+    }
 
     logger.info(`File uploaded: ${req.file.originalname} -> ${req.file.filename}`);
-
-    res.json({
-      success: true,
-      file: fileData
-    });
+    res.json({ success: true, file: fileData });
   } catch (error) {
     logger.error('File upload error:', error);
     res.status(500).json({ error: 'Erreur lors de l\'upload du fichier' });
@@ -113,49 +156,79 @@ router.post('/upload-multiple', authenticate, upload.array('files', 10), async (
       return res.status(400).json({ error: 'Aucun fichier fourni' });
     }
 
+    const { itemId } = req.body;
     const baseUrl = process.env.API_URL || `${req.protocol}://${req.get('host')}`;
+    const filesData = [];
 
-    const filesData = req.files.map(file => ({
-      id: `file-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
-      name: file.originalname,
-      storedName: file.filename,
-      size: file.size,
-      type: file.mimetype,
-      url: `${baseUrl}/uploads/${file.filename}`,
-      uploadedAt: new Date().toISOString(),
-      uploadedBy: req.user.id
-    }));
+    for (const file of req.files) {
+      const fileUrl = `${baseUrl}/uploads/${file.filename}`;
+      if (itemId) {
+        const result = await db.query(
+          `INSERT INTO attachments (item_id, user_id, file_name, file_url, file_size, file_type)
+           VALUES ($1, $2, $3, $4, $5, $6)
+           RETURNING *`,
+          [itemId, req.userId, file.originalname, fileUrl, file.size, file.mimetype]
+        );
+        const r = result.rows[0];
+        filesData.push({
+          id: r.id,
+          itemId: r.item_id,
+          fileName: r.file_name,
+          fileUrl: r.file_url,
+          fileSize: r.file_size,
+          fileType: r.file_type,
+          createdAt: r.created_at,
+        });
+      } else {
+        filesData.push({
+          id: uuidv4(),
+          fileName: file.originalname,
+          fileSize: file.size,
+          fileType: file.mimetype,
+          fileUrl: fileUrl,
+          createdAt: new Date().toISOString(),
+        });
+      }
+    }
 
     logger.info(`${req.files.length} files uploaded`);
-
-    res.json({
-      success: true,
-      files: filesData
-    });
+    res.json({ success: true, files: filesData });
   } catch (error) {
     logger.error('Multiple file upload error:', error);
     res.status(500).json({ error: 'Erreur lors de l\'upload des fichiers' });
   }
 });
 
-// Delete file
-router.delete('/:filename', authenticate, async (req, res) => {
+// Delete attachment
+router.delete('/:attachmentId', authenticate, async (req, res) => {
   try {
-    const { filename } = req.params;
-    const filePath = path.join(uploadsDir, filename);
+    const { attachmentId } = req.params;
 
-    // Security check - prevent directory traversal
-    if (!filePath.startsWith(uploadsDir)) {
-      return res.status(403).json({ error: 'Accès non autorisé' });
+    const result = await db.query(
+      'SELECT * FROM attachments WHERE id = $1',
+      [attachmentId]
+    );
+
+    if (result.rows.length > 0) {
+      const attachment = result.rows[0];
+      const storedName = attachment.file_url.split('/uploads/').pop();
+      const filePath = path.join(uploadsDir, storedName);
+      if (filePath.startsWith(uploadsDir) && fs.existsSync(filePath)) {
+        fs.unlinkSync(filePath);
+      }
+      await db.query('DELETE FROM attachments WHERE id = $1', [attachmentId]);
+      logger.info(`Attachment deleted: ${attachmentId}`);
+      return res.json({ success: true, message: 'Fichier supprimé' });
     }
 
-    if (fs.existsSync(filePath)) {
+    const filePath = path.join(uploadsDir, attachmentId);
+    if (filePath.startsWith(uploadsDir) && fs.existsSync(filePath)) {
       fs.unlinkSync(filePath);
-      logger.info(`File deleted: ${filename}`);
-      res.json({ success: true, message: 'Fichier supprimé' });
-    } else {
-      res.status(404).json({ error: 'Fichier non trouvé' });
+      logger.info(`File deleted: ${attachmentId}`);
+      return res.json({ success: true, message: 'Fichier supprimé' });
     }
+
+    res.status(404).json({ error: 'Fichier non trouvé' });
   } catch (error) {
     logger.error('File delete error:', error);
     res.status(500).json({ error: 'Erreur lors de la suppression du fichier' });

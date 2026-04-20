@@ -122,8 +122,8 @@ router.post(
 
         // Get column types
         const columnTypesResult = await client.query(
-          "SELECT id, name FROM column_types WHERE name IN ($1, $2, $3)",
-          ["status", "person", "date"]
+          "SELECT id, name FROM column_types WHERE name IN ($1, $2, $3, $4, $5)",
+          ["status", "person", "date", "text", "dropdown"]
         );
 
         const columnTypes = {};
@@ -133,19 +133,24 @@ router.post(
 
         // Create default columns
         const defaultColumns = [
-          { title: "Statut", type_id: columnTypes.status, position: 0 },
-          { title: "Responsable", type_id: columnTypes.person, position: 1 },
-          { title: "Date de debut", type_id: columnTypes.date, position: 2 },
-          { title: "Date limite", type_id: columnTypes.date, position: 3 },
+          { title: "Source", type_id: columnTypes.text, position: 0, width: 140 },
+          { title: "Domaine", type_id: columnTypes.dropdown, position: 1, width: 150 },
+          { title: "Action à réaliser", type_id: columnTypes.text, position: 2, width: 220 },
+          { title: "Responsable de suivi", type_id: columnTypes.person, position: 3, width: 180 },
+          { title: "Contributeurs", type_id: columnTypes.person, position: 4, width: 170 },
+          { title: "Statut", type_id: columnTypes.status, position: 5, width: 150 },
+          { title: "Date de debut", type_id: columnTypes.date, position: 6, width: 140 },
+          { title: "Échéance", type_id: columnTypes.date, position: 7, width: 140 },
+          { title: "Commentaires actualisés et synthétiques", type_id: columnTypes.text, position: 8, width: 300 },
         ];
 
         const columnIds = [];
         for (const col of defaultColumns) {
           const colResult = await client.query(
-            `INSERT INTO columns (board_id, column_type_id, title, position)
-           VALUES ($1, $2, $3, $4)
+            `INSERT INTO columns (board_id, column_type_id, title, position, width)
+           VALUES ($1, $2, $3, $4, $5)
            RETURNING id`,
-            [board.id, col.type_id, col.title, col.position]
+            [board.id, col.type_id, col.title, col.position, col.width || 150]
           );
           columnIds.push({
             id: colResult.rows[0].id,

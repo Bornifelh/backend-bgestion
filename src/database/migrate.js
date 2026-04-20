@@ -1118,38 +1118,75 @@ CREATE TABLE IF NOT EXISTS it_maintenance (
 );
 `;
 
-async function addStartDateToExistingBoards() {
+async function addDefaultColumnsToExistingBoards() {
   try {
-    const dateType = await db.query("SELECT id FROM column_types WHERE name = 'date' LIMIT 1");
-    if (!dateType.rows.length) return;
-    const dateTypeId = dateType.rows[0].id;
+    const typesResult = await db.query(
+      "SELECT id, name FROM column_types WHERE name IN ('text', 'dropdown', 'person', 'status', 'date')"
+    );
+    const types = {};
+    typesResult.rows.forEach((t) => { types[t.name] = t.id; });
+    if (!types.text || !types.status) return;
+
+    const expectedColumns = [
+      { title: 'Source', type: 'text', position: 0 },
+      { title: 'Domaine', type: 'dropdown', position: 1 },
+      { title: 'Action à réaliser', type: 'text', position: 2 },
+      { title: 'Responsable de suivi', type: 'person', position: 3 },
+      { title: 'Contributeurs', type: 'person', position: 4 },
+      { title: 'Statut', type: 'status', position: 5 },
+      { title: 'Date de debut', type: 'date', position: 6 },
+      { title: 'Échéance', type: 'date', position: 7 },
+      { title: 'Commentaires actualisés et synthétiques', type: 'text', position: 8 },
+    ];
 
     const boards = await db.query('SELECT id FROM boards');
     for (const board of boards.rows) {
-      const existing = await db.query(
-        "SELECT id FROM columns WHERE board_id = $1 AND title = 'Date de debut'",
+      const { rows: existingCols } = await db.query(
+        'SELECT title FROM columns WHERE board_id = $1',
         [board.id]
       );
-      if (existing.rows.length === 0) {
-        const dueDateCol = await db.query(
-          "SELECT position FROM columns WHERE board_id = $1 AND title = 'Date limite' LIMIT 1",
+      const existingTitles = new Set(existingCols.map((c) => c.title));
+
+      // Rename "Date limite" → "Échéance" if present
+      if (existingTitles.has('Date limite') && !existingTitles.has('Échéance')) {
+        await db.query(
+          "UPDATE columns SET title = 'Échéance' WHERE board_id = $1 AND title = 'Date limite'",
           [board.id]
         );
-        const pos = dueDateCol.rows.length ? dueDateCol.rows[0].position : 2;
+        existingTitles.delete('Date limite');
+        existingTitles.add('Échéance');
+      }
 
+      // Rename "Responsable" → "Responsable de suivi" if present
+      if (existingTitles.has('Responsable') && !existingTitles.has('Responsable de suivi')) {
         await db.query(
-          'UPDATE columns SET position = position + 1 WHERE board_id = $1 AND position >= $2',
-          [board.id, pos]
+          "UPDATE columns SET title = 'Responsable de suivi' WHERE board_id = $1 AND title = 'Responsable'",
+          [board.id]
         );
-        await db.query(
-          'INSERT INTO columns (board_id, column_type_id, title, position) VALUES ($1, $2, $3, $4)',
-          [board.id, dateTypeId, 'Date de debut', pos]
-        );
+        existingTitles.delete('Responsable');
+        existingTitles.add('Responsable de suivi');
+      }
+
+      const { rows: maxPosRow } = await db.query(
+        'SELECT COALESCE(MAX(position), -1) as max_pos FROM columns WHERE board_id = $1',
+        [board.id]
+      );
+      let nextPos = maxPosRow[0].max_pos + 1;
+
+      for (const col of expectedColumns) {
+        if (!existingTitles.has(col.title)) {
+          const typeId = types[col.type];
+          if (!typeId) continue;
+          await db.query(
+            'INSERT INTO columns (board_id, column_type_id, title, position) VALUES ($1, $2, $3, $4)',
+            [board.id, typeId, col.title, nextPos++]
+          );
+        }
       }
     }
-    logger.info('✅ Start date column added to existing boards');
+    logger.info('✅ Default columns added/updated on existing boards');
   } catch (error) {
-    logger.error('Start date migration warning:', error.message);
+    logger.error('Column migration warning:', error.message);
   }
 }
 
@@ -1157,7 +1194,7 @@ async function runMigrations() {
   try {
     logger.info('Starting database migrations...');
     await db.query(migrations);
-    await addStartDateToExistingBoards();
+    await addDefaultColumnsToExistingBoards();
     logger.info('✅ Migrations completed successfully');
     process.exit(0);
   } catch (error) {

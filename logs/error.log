@@ -396,3 +396,7 @@
     at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
     at async checkBoardAccess (/Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/middleware/auth.middleware.js:153:20)
+2026-04-20 11:59:46 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/routes/auth.routes.js:130:20

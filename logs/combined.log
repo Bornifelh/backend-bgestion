@@ -6004,3 +6004,25 @@
 2026-04-15 18:56:13 [INFO]: Socket authenticated for user 2d3804fd-d595-4c38-96e5-843a15e445fd
 2026-04-15 18:56:13 [INFO]: User connected: 2d3804fd-d595-4c38-96e5-843a15e445fd
 2026-04-15 18:58:38 [INFO]: User disconnected: 2d3804fd-d595-4c38-96e5-843a15e445fd (transport close)
+2026-04-20 11:58:07 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-20 11:58:07 [INFO]: 📡 Socket.IO ready for connections
+2026-04-20 11:58:07 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-20 11:58:07 [INFO]: Connected to Redis
+2026-04-20 11:59:46 [ERROR]: Error: Connection terminated due to connection timeout
+    at /Users/macbookpro/BIS-GESPROJET/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/macbookpro/BIS-GESPROJET/backend-bgestion/src/routes/auth.routes.js:130:20
+2026-04-20 14:53:16 [INFO]: Connected to PostgreSQL database
+2026-04-20 14:53:19 [INFO]: Connected to PostgreSQL database
+2026-04-20 15:30:46 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-20 15:30:46 [INFO]: 📡 Socket.IO ready for connections
+2026-04-20 15:30:46 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-20 15:30:46 [INFO]: Connected to Redis
+2026-04-20 15:31:13 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-20 15:31:13 [INFO]: 📡 Socket.IO ready for connections
+2026-04-20 15:31:13 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-20 15:31:13 [INFO]: Connected to Redis
+2026-04-20 15:34:11 [INFO]: 🚀 Server running on 0.0.0.0:3001
+2026-04-20 15:34:11 [INFO]: 📡 Socket.IO ready for connections
+2026-04-20 15:34:11 [INFO]: 🔒 CORS origins: ["http://localhost:5173"]
+2026-04-20 15:34:11 [INFO]: Connected to Redis
